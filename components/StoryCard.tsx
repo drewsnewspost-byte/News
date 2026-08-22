@@ -7,7 +7,7 @@ export function StoryCard({ story }: { story: Story }) {
   const href = storyHref(story);
   const credit = story.comic.credit || story.source.publisher || story.source.title;
   return (
-    <article className="flex flex-col bg-white">
+    <article className="story-card-lift flex flex-col bg-white">
       <Link href={href} className="block">
         <div className="overflow-hidden bg-mist">
           {/* eslint-disable-next-line @next/next/no-img-element */}

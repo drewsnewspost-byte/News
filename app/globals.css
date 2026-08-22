@@ -4,3 +4,40 @@
 html, body { background: #ffffff !important; color: #171717; }
 body { -webkit-font-smoothing: antialiased; }
 .kicker { font-size: 0.6875rem; letter-spacing: 0.18em; text-transform: uppercase; color: #525252; }
+
+@keyframes featured-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+.featured-fade {
+  animation: featured-in 320ms ease-out both;
+}
+.story-card-lift {
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+.story-card-lift:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.07);
+}
+.nav-link {
+  text-decoration-color: transparent;
+  text-underline-offset: 4px;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+.nav-link:hover {
+  color: #171717;
+  text-decoration: underline;
+  text-decoration-color: #171717;
+}
+.nav-link-active {
+  color: #171717;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

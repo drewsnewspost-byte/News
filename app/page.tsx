@@ -44,7 +44,7 @@ export default function HomePage() {
                 <img
                   src={featured.comic.src}
                   alt={featured.comic.alt}
-                  className="w-full bg-white"
+                  className="featured-fade w-full bg-white"
                 />
               </Link>
               <p className="mt-2 font-sans text-sm text-neutral-500">
