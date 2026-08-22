@@ -1,9 +1,8 @@
 node_modules
 .next
+.next-*
 out
 .env
 .env.local
-
-data/newsletter-signups.json
-
 screenshots
+data/newsletter-signups.json
