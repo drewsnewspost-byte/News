@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="675" fill="#F3EDE0"/>
+  <rect x="0" y="0" width="1200" height="18" fill="#143024"/>
+  <rect x="0" y="657" width="1200" height="18" fill="#143024"/>
+  <rect x="48" y="48" width="1104" height="579" fill="none" stroke="#1A3D2B" stroke-width="2"/>
+  <rect x="56" y="56" width="1088" height="563" fill="none" stroke="#B0894A" stroke-width="1"/>
+  <g fill="#1A3D2B">
+    <rect x="280" y="280" width="40" height="200"/>
+    <rect x="360" y="220" width="40" height="260"/>
+    <rect x="440" y="300" width="40" height="180"/>
+    <rect x="720" y="240" width="40" height="240"/>
+    <rect x="800" y="200" width="40" height="280"/>
+    <rect x="880" y="290" width="40" height="190"/>
+  </g>
+  <rect x="250" y="480" width="700" height="6" fill="#B0894A"/>
+  <path d="M560 180 L640 180 L600 250 Z" fill="#4A6B4F"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="#143024" letter-spacing="8">POLITICS</text>
+</svg>

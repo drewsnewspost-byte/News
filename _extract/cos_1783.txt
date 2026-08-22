@@ -1,0 +1,34 @@
+tool
+tool_result
+shell
+python3 << 'PY'
+import json
+from pathlib import Path
+
+def dump_matching(path, needle, outname):
+    p = Path(path)
+    last = None
+    for i, line in enumerate(p.open(errors="ignore")):
+        if needle.lower() in line.lower():
+            last = (i, line)
+    if last:
+        Path(f"/workspace/drews-news/_extract/{outname}.txt").write_text(last[1])
+        print(outname, "line", last[0], "len", len(last[1]))
+    else:
+        print("MISS", outname)
+
+# editor for remaining
+ed = "/home/box/agent-data/agent-transcripts/32338ab2-a6c4-4ddd-8118-493ca5495612/32338ab2-a6c4-4ddd-8118-493ca5495612.jsonl"
+dump_matching(ed, "90-day break on extra beef", "politics")
+dump_matching(ed, "long-bond buyback", "finance")
+dump_matching(ed, "Historic Danube drought", "environment")
+# humor
+hum = "/home/box/agent-data/agent-transcripts/2173305a-ee31-4dfd-ad16-41b1d13afe09/2173305a-ee31-4dfd-ad16-41b1d13afe09.jsonl"
+dump_matching(hum, "Neighborhood Watch", "humor")
+# finance desk
+dump_matching("/home/box/agent-data/agent-transcripts/0f57076f-a5a1-40e3-9c63-2e92b50f8230/0f57076f-a5a1-40e3-9c63-2e92b50f8230.jsonl" if Path("/home/box/agent-data/agent-transcripts/0f57076f-a5a1-40e3-9c63-2e92b50f8230/0f57076f-a5a1-40e3-9c63-2e92b50f8230.jsonl").exists() else ed, "long-bond buyback", "finance2")
+# env desk
+dump_matching("/home/box/agent-data/agent-transcripts/5687dbb1-5ea7-4cd4-b924-41539c0a9228/5687dbb1-5ea7-4cd4-b924-41539c0a9228.jsonl", "Historic Danube", "envdesk")
+print("ok")
+PY
+An error occured while classifying this action. Please review manually.

@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api
+Disallow: /preview
+Disallow: /draft
+
+Sitemap: https://drewsnews.com/sitemap.xml/

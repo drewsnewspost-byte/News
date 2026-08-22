@@ -1,0 +1,41 @@
+user
+text
+[SAND_HIDDEN_PROMPT][agent] A message just arrived from another of your user's agents: Sports (id: 359227fa-5331-41b3-ac34-724d79121649).
+This is another assistant reaching out — not the user typing here. It arrived asynchronously, and your user can already see it in this chat.
+
+Sports: Sports desk — first sample, text only, for Editor. No picture. Not posted. I will not message Drew.
+
+HEADLINE: NFL slaps Cowboys and Saints with $500,000 fines after Oxnard brawl
+
+LEDE: The league hit Dallas and New Orleans with matching half-million-dollar club fines Thursday after a fight-filled joint practice in Oxnard, a rare preseason hammer meant to keep camp scraps from turning into injuries.
+
+ARTICLE:
+The NFL fined the Dallas Cowboys and New Orleans Saints $500,000 apiece on Thursday, Aug. 21, after a joint practice two days earlier in Oxnard, California, dissolved into repeated fights, thrown punches, and at least one flying helmet.
+
+The league confirmed the penalties in a statement after it asked both clubs for video of the Tuesday session at the Cowboys’ training-camp base. “The Dallas Cowboys and New Orleans Saints have each been fined $500,000 for the actions that took place at the joint practice between the teams earlier this week,” the NFL said. The Competition Committee, it added, has made sportsmanship at joint practices a point of emphasis for several years, and every club was reminded by memo before camp of its duty to stop unsportsmanlike behavior that could cause injury.
+
+Tuesday’s workout was not a single flare-up. Players threw punches on both practice fields after the teams split to work offense against defense. Play had to be stopped more than once as Saints offensive players and Cowboys defensive players ran over to join a scrap. By some counts, there were as many as a dozen fights. Cowboys coach Brian Schottenheimer and Saints coach Kellen Moore nearly ended the session early.
+
+The Associated Press described a lowlight: Saints tight end Brock Rechsteiner body-slammed Cowboys safety Jalen Thompson, a move that drew extra attention because Rechsteiner’s father is pro wrestler Scott Steiner. Saints center Erik McCoy threw a Cowboys helmet into the air during one pile. In another sequence, McCoy and Cowboys linebacker Donovan Ezeiruaku traded punches. Ezeiruaku was thrown out of practice, his second ejection of camp. The Associated Press also noted the session was run in unusually hot, humid weather for the coastal town.
+
+Schottenheimer, speaking after the practice, did not dress it up. “There’s a discipline element to playing this football game,” he said. “Unfortunately we didn’t handle that very well today.” He later called the workout “a little chippy. Not the way we like to do business.” Moore, before the fines dropped, said there was “non-football stuff in that joint practice, unfortunately.”
+
+Cowboys owner Jerry Jones, speaking Thursday in Oxnard as Dallas wrapped camp, called the penalty “pretty stiff” and said the club will appeal. He also said he understood why the league came down hard. “This game is physical and it’s easy to get involved with aggressive temperaments,” Jones said. Taking helmets off, swinging, and hitting, he added, “is not good for anybody, and it’s certainly not what we want to represent to our fans as a league or as a team.” The size of the fine, he said, “does make the point that it’s a serious matter” and “gets your attention.”
+
+Jones said the Cowboys will also fine their own players who drew the league’s ire, independent of the appeal. He indicated Ezeiruaku is among them. “You have to have consequences, and that needs to register,” Jones said.
+
+The money is club money, not a player’s game-check deduction, and team fines can be appealed. That is why Jones can fight the number without arguing the fights never happened. The league’s July memo, as reported by ESPN, told clubs that coaches and players would be held to high standards of professionalism at joint practices. Those sessions have become more common as teams look for game-speed work without another preseason snap. Dallas had already held a quieter joint practice with the Los Angeles Rams this summer, with cameras kept off. Tuesday, with cameras rolling, was different.
+
+New Orleans left Oxnard and practiced with the Rams on Thursday in Woodland Hills without scuffles. Moore said he talked to his players about professionalism before that session. The Saints also hosted Jacksonville last week without incident. They were scheduled to play the Rams in a Saturday preseason game at SoFi Stadium. The Cowboys were set for Arizona in Week 2 of the preseason.
+
+Nobody was reported seriously hurt in the Oxnard fights. The league still treated the tape as a statement: joint practice is not a free zone. Half a million dollars each is the reminder.
+
+SOURCES:
+- NFL.com, “NFL fines Cowboys, Saints $500K each for unsportsmanlike behavior at joint practice,” Aug. 21, 2026. https://www.nfl.com/news/nfl-fines-cowboys-saints-500k-each-for-unsportsmanlike-behavior-at-joint-practice
+- Associated Press via Spectrum News, “Cowboys and Saints fined $500,000 apiece by NFL after brawl-filled joint practice,” Aug. 21, 2026. https://spectrumlocalnews.com/tx/south-texas-el-paso/news/2026/08/21/cowboys-and-saints-fined--500-000-apiece
+- ESPN, “Cowboys, Saints fined $500K each for brawls in joint practice.” https://www.espn.com/nfl/story/_/id/49673882/cowboys-saints-fined-500k-brawls-joint-practices
+- Cowboys Wire / USA Today, Aug. 21, 2026 (Ian Rapoport first report; Jones quotes). https://cowboyswire.usatoday.com/story/sports/nfl/cowboys/2026/08/21/cowboys-saints-fined-by-nfl-joint-practice-fights/91394561007/
+
+NOTES FOR EDITOR: Word count about 620. I used AP on the Rechsteiner/Thompson slam; some recaps name a different Cowboys player. No image, per your hold.
+
+If it needs a reply or an action, handle it: reply to Sports with SendToAgent (their id: 359227fa-5331-41b3-ac34-724d79121649), which reaches them on a later turn — not a live back-and-forth — and use SendMessage to tell your user only when you have a real result to share. If it is just an FYI with nothing for you to do, it is fine to stay silent — no need to reply just to acknowledge it.

@@ -1,0 +1,35 @@
+import Link from "next/link";
+import { SECTION_LABEL, SECTION_TONE } from "@/lib/site";
+import type { Story } from "@/lib/types";
+import { formatDeskDate, storyHref, storyPublished } from "@/lib/urls";
+
+export function StoryCard({ story }: { story: Story }) {
+  const href = storyHref(story);
+  const credit = story.comic.credit || story.source.publisher || story.source.title;
+  return (
+    <article className="flex flex-col bg-white">
+      <Link href={href} className="block">
+        <div className="overflow-hidden bg-mist">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={story.comic.src} alt={story.comic.alt} className="w-full object-cover" />
+        </div>
+      </Link>
+      <p className="mt-2 font-sans text-xs text-neutral-500">{credit}</p>
+      <div className="flex flex-1 flex-col pt-3">
+        <p className={`font-sans text-[11px] uppercase tracking-widest ${SECTION_TONE[story.section]}`}>
+          {SECTION_LABEL[story.section]}
+          {story.section === "humor" ? " · SATIRE" : ""}
+        </p>
+        <h2 className="mt-2 font-serif text-[1.35rem] font-medium leading-snug tracking-tight text-neutral-900">
+          <Link href={href} className="hover:text-leaf">
+            {story.headline}
+          </Link>
+        </h2>
+        <p className="mt-2 flex-1 font-sans text-[15px] leading-relaxed text-neutral-600">{story.dek || story.recap}</p>
+        <p className="mt-3 font-sans text-xs text-neutral-400">
+          {formatDeskDate(storyPublished(story))}
+        </p>
+      </div>
+    </article>
+  );
+}

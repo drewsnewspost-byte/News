@@ -1,0 +1,39 @@
+user
+text
+[SAND_HIDDEN_PROMPT][agent] A message just arrived from another of your user's agents: Environment (id: 5687dbb1-5ea7-4cd4-b924-41539c0a9228).
+This is another assistant reaching out — not the user typing here. It arrived asynchronously, and your user can already see it in this chat.
+
+Environment: Environment desk — text-only draft for Editor. No image, per your hold.
+
+Headline: Historic Danube drought forces explosives, sunk barges and nuclear cutbacks
+
+Lede: Governments along the Danube are blasting rock, sinking barges and throttling nuclear plants to keep Europe’s second-longest river usable as drought has driven the river to historic lows, threatened reactor cooling and stranded shipping.
+
+The emergency, reported this week by E&E News and the Atlantic Council, lands as EU officials say drought costs are no longer rare. “People are losing their lives,” climate commissioner Wopke Hoekstra told POLITICO’s E&E News. “If you add the truly dramatic cost of the wildfires but also of the droughts, for example, for shipping, I don’t think any one of us can be complacent.”
+
+The Danube rises in southwestern Germany and reaches the Black Sea. Its main stem crosses 10 countries; its basin, E&E News reported, spans 19 countries and supports tens of millions of people.
+
+In Budapest, the Associated Press said Hungary’s water authority measured 23 centimeters, below the 2018 record of 33 centimeters. The Atlantic Council, writing later, said the city gauge had fallen to about 10 centimeters the prior week. At Pfelling in Bavaria, it reported 216 centimeters, under a 221-centimeter low from August 2022. Flow into Romania was about 1,500 cubic meters per second versus multi-year July and August averages of 4,700 and 3,900; hydrologists expected a drop below 1,400, under the 1985 minimum.
+
+Rivers do not generate most of the region’s power, but they cool the plants that do. Hungary’s Paks station — about 2,000 megawatts and nearly half of national supply in normal conditions — has cut output since late July and was producing 240 megawatts last week, the Atlantic Council said. Prime Minister Péter Magyar said the plant was within “a few millimeters” of a first-ever full shutdown in 44 years. Budapest darkened decorative lights on more than 300 buildings.
+
+Romania shut Cernavodă unit 1 on July 28, declared an August energy-sector alert on July 31 and released 7 million lei for river works, the same dispatch said. Prime Minister Ilie Bolojan asked users to shift evening demand as imports ran about 1,700 megawatts at peak evening hours. On Aug. 12, managers said unit 2 would begin a controlled shutdown the next day. On Aug. 3 the Romanian navy used 180 kilograms of explosives on a limestone shelf that had diverted water from the intake, raising the basin two centimeters — about two extra operating days — and sank four stone-filled barges in a side channel. E&E News said Hungary submerged vessels to keep water moving past Paks.
+
+Serbia’s Đerdap 1 hydropower plant was delivering a little over 5,000 megawatt-hours a day, about a third of normal, the Atlantic Council said. Austria’s Verbund reported Danube flow down by a third and generation down about a quarter at 11 plants in a country that draws about 60 percent of electricity from hydropower.
+
+Hungary’s transport ministry told the AP cargo traffic had almost stopped and Budapest cruise ships were docking far upriver. Bulgarian police evacuated 186 tourists from Viking Ullur after it grounded near Vidin; the operator disputed reports of a water shortage. Near Novi Sad, houseboat operator Radovan Segrt told the AP the river had withdrawn “some 15 to 20 meters” from shore. “The summer season is over now, as far as boat riding is concerned,” he said.
+
+The Hungarian Meteorological Service said 90-day rainfall was 80–130 millimeters below multi-year averages almost nationwide. Birgit Vogel, executive secretary of the International Commission for the Protection of the Danube River, told E&E News: “The prediction is that this will occur more often, and we need to look more systematically at water availability, water demands, and of course retention and resilience.” In a March 2025 ICPDR statement she had already warned that basin drought management “needs improvement” and “stronger coordination at both national and basin levels.”
+
+The Atlantic Council said neighbors cannot backstop one another if Hungarian and Romanian nuclear units and Serbian and Austrian hydro fail in the same heat wave, and it urged a shared low-water protocol before September–October, typically the lowest-flow months. E&E News reported Friday that experts hope the 2026 emergency will push Brussels beyond ad hoc blasting. The river will rise. Cooling design and drought policy still assume a Danube that no longer behaves as it did.
+
+Word count: 700
+
+Sources:
+- Jakob Weizman and Elena Giordano, E&E News / POLITICO, Aug. 21, 2026: https://www.eenews.net/articles/the-danube-is-drying-up-europe-still-has-no-plan/
+- E&E News / POLITICO: https://www.eenews.net/articles/amid-record-heat-and-wildfire-countries-resort-to-drastic-steps/
+- Atlantic Council: https://www.atlanticcouncil.org/dispatches/the-danube-is-running-dry-and-taking-central-europes-power-supply-with-it/
+- Associated Press: https://apnews.com/article/danube-river-record-lows-tourism-industry-drought-05103b433efb46990d9664ba4d155834
+- ICPDR, March 12, 2025: https://www.icpdr.org/tasks-topics/tasks/climate-change-adaptation/icpdr-executive-secretary-calls-stronger-coordination
+
+If it needs a reply or an action, handle it: reply to Environment with SendToAgent (their id: 5687dbb1-5ea7-4cd4-b924-41539c0a9228), which reaches them on a later turn — not a live back-and-forth — and use SendMessage to tell your user only when you have a real result to share. If it is just an FYI with nothing for you to do, it is fine to stay silent — no need to reply just to acknowledge it.

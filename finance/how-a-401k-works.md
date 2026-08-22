@@ -1,0 +1,27 @@
+# How a 401(k) works: paycheck deferrals, taxes, matches, and IRS limits
+
+**Status:** Cleared by Editor Lead. Do not post. Pictures held.
+
+**Lede:** A 401(k) is an employer-sponsored retirement savings plan. Eligible workers send a slice of each paycheck into a menu of plan investments—often mutual funds—and the tax code, not the day’s market tape, decides when those dollars are taxed.
+
+A 401(k) takes its name from a section of the Internal Revenue Code. The U.S. Securities and Exchange Commission’s Investor.gov glossary defines it as an employer-sponsored retirement savings plan that gives employees a choice of investment options, typically mutual funds. In a traditional 401(k), a portion of pre-tax salary is invested in the option or options the worker chooses. Those contributions, and any earnings on them, are not taxed until they are withdrawn.
+
+That “until withdrawn” rule is the core mechanic. The IRS describes a traditional 401(k) as a plan that lets eligible employees make pre-tax elective deferrals through payroll deductions. The money never hits the checking account as take-home pay; it is redirected before ordinary income tax is calculated on that slice of wages. Investor.gov notes that most plans now also offer a Roth 401(k) option. Roth contributions are made with after-tax dollars, so there is no upfront deduction. Income earned in the Roth account—interest, dividends, or capital gains—and withdrawals are generally tax-free if the rules for a qualified distribution are met. The same person can split money between traditional and Roth buckets if the plan allows it. The SEC does not regulate or oversee 401(k) plans themselves; questions about a specific plan go to the plan administrator and, for complaints, to the Labor Department’s Employee Benefits Security Administration.
+
+Employers are not required to add money, but many do. The IRS says a plan document can let the employer make matching contributions for workers who defer, or nonelective contributions even for people who put in nothing. A common textbook example on the IRS site is a match of 50 cents for each dollar an employee defers. Matching formulas are a plan design choice, not a federal formula. Employer money can vest immediately or only after a period of service. The IRS is explicit on one point: employees must be fully vested in their own elective deferrals. Safe harbor and SIMPLE 401(k) designs require employer contributions to be fully vested when made. A plan generally cannot require more than one year of service as a condition of participation. Some plans also use automatic enrollment: unless the worker opts out or picks a different rate, the employer withholds a default percentage and deposits it as an elective deferral.
+
+Congress caps how much can go in. For 2026, the IRS set the employee elective deferral limit for traditional and safe harbor 401(k) plans at $24,500, subject to cost-of-living adjustments. That personal cap applies across 401(k), 403(b), SARSEP, SIMPLE plans, and the federal Thrift Savings Plan combined. A governmental 457(b) has a separate parallel $24,500 limit and is not part of that 402(g) pot. If the plan permits catch-up contributions, participants age 50 or older can defer an extra $8,000 in 2026. Under SECURE 2.0, ages 60 through 63 use a higher catch-up of $11,250 for 2026. A separate overall limit covers annual additions at one employer: employee deferrals (not counting catch-ups), employer match, nonelective contributions, and forfeitures. That total cannot exceed the lesser of 100 percent of the participant’s compensation or $72,000 in 2026 ($80,000 with ordinary catch-ups, or up to $83,250 for ages 60–63). Compensation counted for contribution purposes is itself capped at $360,000 for 2026. A plan can set a lower deferral limit than the IRS maximum.
+
+Getting money out is a separate rulebook. Taxable amounts taken before age 59½ can face a 10 percent additional tax on top of ordinary income tax, the IRS says, unless an exception applies (for example, death, disability, or separation from service in or after the year the participant turns 55). Fees can reduce returns; the Labor Department’s EBSA publishes materials on plan investment fees.
+
+None of this is a recommendation to enroll, maximize, or pick funds. A 401(k) is a legal wrapper: payroll deferral, optional employer money, a limited investment menu, and tax timing set by statute. The wrapper does not guarantee a return.
+
+## Sources
+- SEC Investor.gov glossary: https://www.investor.gov/introduction-investing/investing-basics/glossary/401k-plan
+- SEC Investor.gov 401(k) Plans: https://www.investor.gov/employment-retirement/employment/employer-sponsored-plans/traditional-roth-401k-plans
+- IRS 401(k) overview: https://www.irs.gov/retirement-plans/plan-participant-employee/401k-resource-guide-plan-participants-401k-plan-overview
+- IRS 2026 limits (Notice 2025-67): https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500
+- IRS contribution limits: https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits
+- IRS distribution rules: https://www.irs.gov/retirement-plans/plan-participant-employee/401k-resource-guide-plan-participants-general-distribution-rules
+- IRS Topic 558: https://www.irs.gov/taxtopics/tc558
+- Investopedia 401(k): https://www.investopedia.com/terms/1/401kplan.asp

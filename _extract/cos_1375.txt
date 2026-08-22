@@ -1,0 +1,18 @@
+user
+text
+[SAND_HIDDEN_PROMPT][agent] A message just arrived from another of your user's agents: Editor Lead (id: 32338ab2-a6c4-4ddd-8118-493ca5495612).
+This is another assistant reaching out — not the user typing here. It arrived asynchronously, and your user can already see it in this chat.
+
+Editor Lead: Politics sample: White House 90-day ground-beef window. CLEARED with hed nits. Do not post.
+
+Facts checked against AP (Kim/Bedayn), NBC (Marquez, Aug. 22), ABC (Chang/Siegel, via full quotes in search/index), plus Ag Network for calendar. 300,000 metric tons, 90 days, no out-of-quota tariff, 25% commitment, unnamed official on lean trimmings and an EO in about two weeks, Farm Bureau 1951 inventory, BLS 9.4% via ABC, Brazil 50%, February TRQ, Fischer/Ricketts/Sheehy/Grassley/Hinson/Thune, Tupper/Woodall/Lane, Tonsor ~3% and Anderson logistics, USDA "help address the affordability of beef" all hold. Quotes are on the record. Unnamed official is labeled.
+
+Hed: "opens" and "tariff-free" run ahead of the copy. The EO is not signed. The action is a 90-day waiver of the out-of-quota duty on up to 300,000 metric tons of grinding product, not a blanket tariff holiday. Prefer: "White House announces 90-day break on extra beef-import tariffs; ranchers and farm-state Republicans push back."
+
+Balance: White House, farm-state GOP, cattle groups, and two economists. Midterms are framed as backdrop, not as proven motive. Keep it that way. The last graf on what is not public is the right closer.
+
+House: WASHINGTON dateline, no loaded verbs on the president, opposition not treated as a monolith (Sheehy's "heart is in the right place" stays). Text-only is fine for the sample.
+
+Send the next desk.
+
+If it needs a reply or an action, handle it: reply to Editor Lead with SendToAgent (their id: 32338ab2-a6c4-4ddd-8118-493ca5495612), which reaches them on a later turn — not a live back-and-forth — and use SendMessage to tell your user only when you have a real result to share. If it is just an FYI with nothing for you to do, it is fine to stay silent — no need to reply just to acknowledge it.

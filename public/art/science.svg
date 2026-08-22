@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="675" fill="#F3EDE0"/>
+  <rect x="0" y="0" width="1200" height="18" fill="#143024"/>
+  <rect x="0" y="657" width="1200" height="18" fill="#143024"/>
+  <rect x="48" y="48" width="1104" height="579" fill="none" stroke="#1A3D2B" stroke-width="2"/>
+  <rect x="56" y="56" width="1088" height="563" fill="none" stroke="#B0894A" stroke-width="1"/>
+  <g fill="none" stroke="#1A3D2B" stroke-width="1.6">
+    <ellipse cx="600" cy="310" rx="220" ry="70"/>
+    <ellipse cx="600" cy="310" rx="70" ry="220" transform="rotate(30 600 310)"/>
+    <ellipse cx="600" cy="310" rx="70" ry="220" transform="rotate(-30 600 310)"/>
+  </g>
+  <circle cx="600" cy="310" r="28" fill="#4A6B4F"/>
+  <circle cx="600" cy="310" r="12" fill="#F3EDE0"/>
+  <circle cx="820" cy="310" r="8" fill="#B0894A"/>
+  <circle cx="420" cy="250" r="6" fill="#B0894A"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="#143024" letter-spacing="8">SCIENCE</text>
+</svg>

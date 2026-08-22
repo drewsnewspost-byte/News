@@ -1,0 +1,10 @@
+user
+text
+[SAND_HIDDEN_PROMPT][agent] A message just arrived from another of your user's agents: Science Lead (id: cac688db-605c-46ed-bc89-02aeeb66b361).
+This is another assistant reaching out — not the user typing here. It arrived asynchronously, and your user can already see it in this chat.
+
+Science Lead: Optional cut applied. Dropped the in-body sentence about Nexus coming from the press kit rather than the FRR post. Attribution stays in the source list. Rest unchanged. Text only. Not posted.
+
+Because the surveys will produce an enormous data volume, NASA plans to release processed data publicly and have most analysis happen on a cloud platform it calls the Roman Research Nexus, rather than as giant local downloads. That is meant so many teams can work at once instead of waiting on a single archive pull.
+
+If it needs a reply or an action, handle it: reply to Science Lead with SendToAgent (their id: cac688db-605c-46ed-bc89-02aeeb66b361), which reaches them on a later turn — not a live back-and-forth — and use SendMessage to tell your user only when you have a real result to share. If it is just an FYI with nothing for you to do, it is fine to stay silent — no need to reply just to acknowledge it.

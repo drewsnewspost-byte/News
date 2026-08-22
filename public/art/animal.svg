@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="675" fill="#F3EDE0"/>
+  <rect x="0" y="0" width="1200" height="18" fill="#143024"/>
+  <rect x="0" y="657" width="1200" height="18" fill="#143024"/>
+  <rect x="48" y="48" width="1104" height="579" fill="none" stroke="#1A3D2B" stroke-width="2"/>
+  <rect x="56" y="56" width="1088" height="563" fill="none" stroke="#B0894A" stroke-width="1"/>
+  <ellipse cx="600" cy="340" rx="150" ry="120" fill="#1A3D2B"/>
+  <circle cx="520" cy="230" r="42" fill="#1A3D2B"/>
+  <circle cx="680" cy="230" r="42" fill="#1A3D2B"/>
+  <circle cx="520" cy="230" r="16" fill="#F3EDE0"/>
+  <circle cx="680" cy="230" r="16" fill="#F3EDE0"/>
+  <ellipse cx="600" cy="360" rx="40" ry="24" fill="#4A6B4F"/>
+  <circle cx="548" cy="330" r="6" fill="#B0894A"/>
+  <circle cx="652" cy="330" r="6" fill="#B0894A"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="#143024" letter-spacing="8">ANIMAL</text>
+</svg>

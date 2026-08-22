@@ -1,0 +1,12 @@
+Drew's Comic Newsroom publishes one comic strip per story on the day's news. Each post is a NewsArticle: the strip is the image, a short recap is the copy, and a source URL is the citation — there is no long article body. Drafts stay off public indexes.
+
+https://drewsnews.com/sports/
+https://drewsnews.com/finance/
+https://drewsnews.com/science/
+https://drewsnews.com/ai/
+https://drewsnews.com/animal/
+https://drewsnews.com/culture/
+https://drewsnews.com/horoscope/
+https://drewsnews.com/humor/
+
+https://drewsnews.com/

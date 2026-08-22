@@ -1,0 +1,47 @@
+user
+text
+[SAND_HIDDEN_PROMPT][agent] A message just arrived from another of your user's agents: Animal (id: 4576c3aa-2767-4c22-b13c-f35905a053d8).
+This is another assistant reaching out — not the user typing here. It arrived asynchronously, and your user can already see it in this chat.
+
+Animal: Animal desk draft for Editor. Text only. No picture. Do not post.
+
+HEADLINE
+Rare prairie butterfly rebounds after scientists released more than 1,300 into the wild
+
+LEDE
+A Midwestern butterfly that nearly vanished from the United States has begun to recover after researchers and zoo partners reared it in captivity and released more than 1,300 adults into restored prairie in 2025, according to Michigan State University and John Ball Zoo.
+
+BODY (about 612 words including lede)
+The Poweshiek skipperling is an inch-long, fuzzy brown butterfly with orange highlights — smaller than a quarter. It once lived across Midwestern prairies from Iowa and the Dakotas to Michigan and southern Canada. The species started disappearing rapidly in the early 2000s. By 2022, researchers documented only nine Poweshiek skipperlings in the entire United States.
+
+At the start of the recovery project in 2021, scientists said only three populations remained: two in southeast Michigan and one in Manitoba, Canada. Partners include MSU’s Haddad laboratory at the W.K. Kellogg Biological Station, John Ball Zoo in Grand Rapids, the Minnesota Zoo, the U.S. Fish and Wildlife Service, the Michigan Department of Natural Resources and land managers including The Nature Conservancy.
+
+“We were actually able to save that species from extinction,” said David Pavlik, a research assistant at the Kellogg Biological Station and John Ball Zoo who has helped lead the work. “We released 102 butterflies in 2022 and more than 1,300 butterflies in 2025.”
+
+Early releases were meant only to keep the last Michigan populations from disappearing. Researchers later used some captive-reared insects to start new groups and others to reinforce remaining ones. At one point, they said they were caring for more skipperlings in captivity than existed in the wild anywhere on Earth. Nick Haddad, a professor of integrated biology at MSU, told Michigan Public that wild numbers have recently exceeded those in captivity.
+
+Skipperlings spend nearly their entire lives as caterpillars and fly as adults for only about two weeks each summer. Miss that window, researchers said, and a year of work can be lost. Staff raise caterpillars in hoop houses built to mimic the heat and humidity of prairie fens — rare wetlands that are the butterfly’s habitat. Most of the world’s remaining prairie fens are in southern Michigan. Before release, each butterfly is briefly anesthetized and marked with a Sharpie so it can be tracked.
+
+“The most exciting thing about this research is starting to see butterflies in the field,” said Bill Flanagan, conservation manager at John Ball Zoo. “In 2022, there were a grand total of nine butterflies found in the U.S. Now we’re seeing hundreds of them at these sites.”
+
+Scientists point to several causes of the collapse: habitat loss, wetland destruction, changing agricultural practices and pesticides. Pavlik said less than 1% of the prairie that once existed remains. Haddad told Michigan Public he suspects new classes and uses of toxic insecticides, along with habitat loss. MSU’s account also cites neonicotinoid pesticides, which can drift beyond intended targets.
+
+“These butterflies are like canaries in a coal mine,” Haddad said. “One-third of Midwestern butterfly species have declined by about 40% in the last 20 years, and none of them have increased.”
+
+Michigan’s mix of Great Lakes geography and remaining fens made the state a last refuge. “Michigan is a stronghold for these species,” Flanagan said. “We’re the perfect place to help save them.”
+
+Haddad said the program still depends on cutting insecticide use and restoring more of the butterfly’s former range. The same partners are now rearing two other endangered butterflies — the Mitchell’s satyr and the Karner blue — and released both into native habitat this summer through the Great Lakes Rare Butterfly Program at John Ball Zoo.
+
+Researchers said they hope to rebuild enough populations to take the Poweshiek skipperling off the endangered species list. The work, they argue, is about more than one insect. Restored prairie also supports other declining insects, birds and plants.
+
+“What’s good for Poweshiek is also very good for the entire ecosystem,” Pavlik said.
+
+SOURCES
+- Michigan State University / MSUToday, “Bringing Butterflies Back From Extinction,” Aug. 12, 2026: https://msutoday.msu.edu/news/2026/08/bringing-butterflies-back-from-extinction
+- Phys.org (MSU release), “Bringing butterflies back from the brink of extinction,” Aug. 14, 2026: https://phys.org/news/2026-08-butterflies-brink-extinction.html
+- Michigan Public, Anna Barnes, “Butterfly returns from brink of extinction with help of MSU researchers and Grand Rapids zoo,” Aug. 20, 2026: https://www.michiganpublic.org/environment-climate-change/2026-08-20/butterfly-returns-from-brink-of-extinction-with-help-of-msu-researchers-and-grand-rapids-zoo
+
+DESK NOTES FOR EDITOR
+Verified conservation milestone with named scientists and hard numbers (9 U.S. wild insects in 2022; 102 released in 2022; 1,300+ released in 2025; hundreds now at sites). Three overlapping sources this month. Insecticide cause is Haddad’s suspicion plus MSU citing neonics, not a standalone quantified study. Exact current wild census not in these pieces. Ready for picture when you ask.
+
+If it needs a reply or an action, handle it: reply to Animal with SendToAgent (their id: 4576c3aa-2767-4c22-b13c-f35905a053d8), which reaches them on a later turn — not a live back-and-forth — and use SendMessage to tell your user only when you have a real result to share. If it is just an FYI with nothing for you to do, it is fine to stay silent — no need to reply just to acknowledge it.

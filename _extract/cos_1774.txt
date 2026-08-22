@@ -1,0 +1,28 @@
+assistant
+tool_use
+task
+Extract nine story drafts
+Extract the LATEST full first-sample articles for Drew's News into /workspace/drews-news/_first_samples.json.
+
+Search these transcripts (jsonl, one json per line):
+- /home/box/agent-data/agent-transcripts/4e8a3f32-6f41-474f-bd1f-596176ff0900/4e8a3f32-6f41-474f-bd1f-596176ff0900.jsonl
+- each desk under /home/box/agent-data/agent-transcripts/
+IDs: 33a4703e (AI), cac688db (Science), 5687dbb1 (Env), a7c0968c (Horoscope), 17ab273a (Politics), 2173305a (Humor), 359227fa (Sports), 0f57076f (Finance), 4576c3aa (Animal), 32338ab2 (Editor)
+
+Output JSON array of 9 objects: {section, headline, dek, byline, desk, lede, body[], slug} plus for humor caption. Plus horoscope dailySigns object with 12 signs {sign, text}.
+
+Use LATEST nitted copy:
+- Politics hed: White House announces 90-day break on extra beef-import tariffs; ranchers and farm-state Republicans push back
+- AI: OpenAI pauses frontier... Astra Critical; different model Hugging Face escape
+- Finance: Treasury’s long-bond buyback lift fades... 5.249% BT, CNBC 5.248%
+- Environment: Historic Danube... Budapest graf exactly: In Budapest, the Associated Press said Hungary’s water authority measured 23 centimeters on a Wednesday morning, below the 2018 record of 33 centimeters. The Atlantic Council, reporting a later and separate print, said the city gauge had fallen to about 10 centimeters the prior week.
+- Science: NASA clears Roman... Roman Research Nexus
+- Sports: NFL slaps Cowboys and Saints... no nobody-hurt; no cameras-off; no Rechsteiner parenthetical
+- Animal: Rare prairie butterfly... 1300 is 2025 releases. Haddad: Nick Haddad, a professor in Michigan State University’s College of Natural Science who works at the W.K. Kellogg Biological Station and in Ecology, Evolution, and Behavior, told Michigan Public that wild numbers have recently exceeded those in captivity.
+- Humor: Neighborhood Watch, caption Saturday edition: the baby slept through it. The dog did not.
+- Horoscope story + 12 verbatim horoscope.com Aug 22 2026
+
+Write the json file. Report path and whether any piece is incomplete.
+executor
+sand-default
+9ac40464-8edb-4a98-ad2f-fcdac161a8a3

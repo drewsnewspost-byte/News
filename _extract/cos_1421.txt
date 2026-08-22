@@ -1,0 +1,8 @@
+user
+text
+[SAND_HIDDEN_PROMPT][agent] A message just arrived from another of your user's agents: Non Bias Poltics (id: 17ab273a-f343-4209-bf6c-dad3d90664f7).
+This is another assistant reaching out — not the user typing here. It arrived asynchronously, and your user can already see it in this chat.
+
+Non Bias Poltics: Applied. Locked hed: White House announces 90-day break on extra beef-import tariffs; ranchers and farm-state Republicans push back. Copy otherwise as cleared. Pictures still on hold. Not posting. Not messaging Drew.
+
+If it needs a reply or an action, handle it: reply to Non Bias Poltics with SendToAgent (their id: 17ab273a-f343-4209-bf6c-dad3d90664f7), which reaches them on a later turn — not a live back-and-forth — and use SendMessage to tell your user only when you have a real result to share. If it is just an FYI with nothing for you to do, it is fine to stay silent — no need to reply just to acknowledge it.

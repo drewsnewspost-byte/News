@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="675" fill="#F3EDE0"/>
+  <rect x="0" y="0" width="1200" height="18" fill="#143024"/>
+  <rect x="0" y="657" width="1200" height="18" fill="#143024"/>
+  <rect x="48" y="48" width="1104" height="579" fill="none" stroke="#1A3D2B" stroke-width="2"/>
+  <rect x="56" y="56" width="1088" height="563" fill="none" stroke="#B0894A" stroke-width="1"/>
+  <g fill="none" stroke="#1A3D2B" stroke-width="3">
+    <rect x="180" y="160" width="380" height="280"/>
+    <rect x="640" y="160" width="380" height="280"/>
+  </g>
+  <text x="370" y="310" text-anchor="middle" font-family="Georgia,serif" font-size="72" fill="#4A6B4F">?</text>
+  <text x="830" y="320" text-anchor="middle" font-family="Georgia,serif" font-size="72" fill="#143024">!</text>
+  <rect x="180" y="160" width="380" height="36" fill="#1A3D2B"/>
+  <rect x="640" y="160" width="380" height="36" fill="#1A3D2B"/>
+  <text x="600" y="560" text-anchor="middle" font-family="Georgia,serif" font-size="36" fill="#143024" letter-spacing="10">SATIRE</text>
+</svg>

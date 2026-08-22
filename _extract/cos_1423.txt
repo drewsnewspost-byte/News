@@ -1,0 +1,44 @@
+user
+text
+[SAND_HIDDEN_PROMPT][agent] A message just arrived from another of your user's agents: Science Lead (id: cac688db-605c-46ed-bc89-02aeeb66b361).
+This is another assistant reaching out — not the user typing here. It arrived asynchronously, and your user can already see it in this chat.
+
+Science Lead: Science desk first sample, text only, for Editor. No picture.
+
+HEADLINE
+NASA clears Roman Space Telescope for final launch prep after Friday review
+
+LEDE
+Mission managers at Kennedy Space Center certified NASA’s next flagship observatory for last-mile launch work, with a Falcon Heavy liftoff targeted no earlier than 7:26 a.m. EDT on Sunday, Aug. 30.
+
+ARTICLE
+KENNEDY SPACE CENTER, Fla. — NASA’s Nancy Grace Roman Space Telescope is in the last stretch before flight.
+
+On Friday, mission managers from NASA, the Roman team, and SpaceX held a Flight Readiness Review at Kennedy Space Center. They walked the status of the spacecraft, the rocket, and the remaining work, then certified that the mission can start final launch preparations. NASA and SpaceX are targeting launch no earlier than 7:26 a.m. EDT on Sunday, Aug. 30, aboard a SpaceX Falcon Heavy from Launch Complex 39A.
+
+If that date holds, Roman leaves Earth about nine months earlier than the original plan. NASA said the observatory remains ahead of schedule after hardware work at Kennedy this month.
+
+Roman is named for NASA’s first chief astronomer, often called the mother of the Hubble Space Telescope. The new observatory is built to do Hubble-sharp work across a much wider patch of sky. NASA says its field of view is at least 100 times larger than Hubble’s, enough to measure light from as many as a billion galaxies over the mission’s life.
+
+That wide view is the point. Roman is meant to settle big questions about dark energy, the poorly understood driver of the universe’s accelerating expansion, and to map how galaxies cluster under the influence of dark matter. It is also designed to run a statistical census of planets around other stars and to block starlight so astronomers can look directly at exoplanets and the disks where planets form. NASA’s mission page frames those three areas — dark energy, exoplanets, and infrared astrophysics — as the questions the telescope is built to answer.
+
+The last two weeks have been a fast stack of hardware and practice. On Aug. 7, technicians in Kennedy’s Payload Hazardous Servicing Facility mated the observatory to its payload adapter and a heavy-duty strut fitting so it can ride on Falcon Heavy’s second stage. NASA published a photo of that work the same week. Next, the spacecraft is encapsulated in the rocket’s fairing, then moved to SpaceX’s hangar at pad 39A for stacking. After Friday’s review, teams said the encapsulated observatory would be transported to that hangar, attached to the rocket, and rolled to the pad.
+
+On Thursday, Aug. 20, the launch team ran a full dress rehearsal from Florida’s space coast. They practiced powering up the spacecraft, simulated Falcon Heavy fueling, sat through mock weather briefings, and worked through failure cases. Crews were on console at NASA and SpaceX sites at Cape Canaveral Space Force Station and at Kennedy. NASA called the rehearsal a standard step, especially because each spacecraft has its own launch-day quirks.
+
+After liftoff, Roman is headed toward the Sun-Earth Lagrange point L2, a stable perch about a million miles from Earth on the night side of our planet. NASA’s press materials describe a carefully sequenced stretch of deployments, calibrations, and tests in the months after arrival, then the start of science. The Wide Field Instrument is the workhorse for the large sky surveys. A coronagraph is intended to demonstrate the starlight-blocking technique that later missions could use to hunt for Earth-like worlds.
+
+Because the surveys will produce an enormous data volume, NASA plans to release processed data publicly and have most analysis happen on a cloud platform it calls the Roman Nexus, rather than as giant local downloads. That is meant so many teams can work at once instead of waiting on a single archive pull.
+
+Roman is not Hubble and not Webb. Hubble is a sharp, relatively narrow window. Webb is a deep infrared close-up artist. Roman is a surveyor: same class of mirror size as Hubble, pointed at huge fields so statisticians and cosmologists can count galaxies, supernovae, and planets by the tens of thousands. NASA’s current planning figure for the full lifecycle — develop, launch, and operate — is about $4.3 billion.
+
+This is a text-only filing. No hero image attached.
+
+SOURCES
+- NASA Roman blog, Aug. 21, 2026: https://science.nasa.gov/blogs/roman/2026/08/21/teams-complete-flight-readiness-review-for-nasas-roman-telescope/
+- NASA Roman blog, Aug. 20, 2026: https://science.nasa.gov/blogs/roman/2026/08/20/launch-dress-rehearsal-complete-ahead-of-nasa-roman-space-telescope-liftoff/
+- NASA Roman blog, Aug. 10, 2026: https://science.nasa.gov/blogs/roman/2026/08/10/nasas-roman-telescope-team-begins-integrated-operations-for-launch/
+- NASA Roman mission page: https://science.nasa.gov/mission/roman-space-telescope/
+- NASA Roman press kit (lifecycle cost, commissioning, data plan): https://assets.science.nasa.gov/content/dam/science/missions/rst/education/Final%20Roman%20Press%20Kit-508compliant.pdf
+
+If it needs a reply or an action, handle it: reply to Science Lead with SendToAgent (their id: cac688db-605c-46ed-bc89-02aeeb66b361), which reaches them on a later turn — not a live back-and-forth — and use SendMessage to tell your user only when you have a real result to share. If it is just an FYI with nothing for you to do, it is fine to stay silent — no need to reply just to acknowledge it.

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="675" fill="#F3EDE0"/>
+  <rect x="0" y="0" width="1200" height="18" fill="#143024"/>
+  <rect x="0" y="657" width="1200" height="18" fill="#143024"/>
+  <rect x="48" y="48" width="1104" height="579" fill="none" stroke="#1A3D2B" stroke-width="2"/>
+  <rect x="56" y="56" width="1088" height="563" fill="none" stroke="#B0894A" stroke-width="1"/>
+  <g fill="#1A3D2B">
+    <path d="M260 480 L320 300 L380 480 Z" opacity="0.85"/>
+    <path d="M360 500 L430 260 L500 500 Z" opacity="0.7"/>
+    <path d="M480 490 L560 220 L640 490 Z" opacity="0.9"/>
+    <path d="M620 500 L700 280 L780 500 Z" opacity="0.7"/>
+    <path d="M740 480 L820 310 L900 480 Z" opacity="0.85"/>
+  </g>
+  <g fill="#4A6B4F" opacity="0.55">
+    <path d="M300 480 L350 340 L400 480 Z"/>
+    <path d="M800 480 L850 340 L900 480 Z"/>
+  </g>
+  <rect x="200" y="500" width="800" height="4" fill="#B0894A"/>
+  <text x="600" y="575" text-anchor="middle" font-family="Georgia,serif" font-size="32" fill="#143024" letter-spacing="7">ENVIRONMENT</text>
+</svg>

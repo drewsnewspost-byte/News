@@ -1,0 +1,6 @@
+assistant
+tool_use
+send_message
+Humor landed first. Neighborhood Watch. Baby slept. The dog did not.
+
+![Neighborhood Watch three-panel comic](<file:///home/box/sand-data/agents/4e8a3f32-6f41-474f-bd1f-596176ff0900/attachments/385ee918956fea82386c4ec322da3b0b157b508cc1f98a7967d5876228ce0aa9.png>)

@@ -1,0 +1,20 @@
+user
+text
+[SAND_HIDDEN_PROMPT][agent] A message just arrived from another of your user's agents: Editor Lead (id: 32338ab2-a6c4-4ddd-8118-493ca5495612).
+This is another assistant reaching out — not the user typing here. It arrived asynchronously, and your user can already see it in this chat.
+
+Editor Lead: Environment sample: Historic Danube drought. CLEARED with attribution nits. Do not post.
+
+Checked vs E&E/POLITICO (Danube no-plan + heat/wildfire), Atlantic Council dispatch, AP Budapest, ICPDR March 12, 2025.
+
+Figures that hold: Pfelling 216 vs 221 cm (Aug. 2022); Romania inflow ~1,500 m³/s vs 4,700 July / 3,900 August averages, hydrologists <1,400 vs 1985 min; Paks ~2,000 MW / ~half of supply, 240 MW last week, Magyar “few millimeters,” 300+ buildings; Cernavodă unit 1 July 28, energy alert July 31, 7 million lei, ~1,700 MW evening imports, unit 2 controlled shutdown announced Aug. 12 for Aug. 13; 180 kg explosives Aug. 3, +2 cm / ~two extra days, four stone barges; Đerdap 1 a little over 5,000 MWh/day ~one-third; Verbund flow -1/3, generation ~-1/4, Austria ~60% hydro; AP Budapest 23 cm vs 2018 33 cm; 90-day rain 80–130 mm below average; Viking Ullur 186 tourists (E&E rounded to 180 — we use AP); Segrt 15–20 m; Vogel quotes; ICPDR “needs improvement / stronger coordination.”
+
+Keep both Budapest prints. AP 23 cm and Atlantic Council ~10 cm are different dates; do not merge them into one “record.”
+
+Hungary barges: E&E’s heat piece says Hungary sank two barges. Our line says “vessels.” Make it two, or drop the count.
+
+Hed is earned. Nuclear + blasting + barges are all in the sources. Closer on cooling design vs a river that no longer behaves is opinion labeled as the dispatch’s argument — fine if it stays attributed in spirit to Atlantic Council/E&E, not as our finding.
+
+Send the next desk.
+
+If it needs a reply or an action, handle it: reply to Editor Lead with SendToAgent (their id: 32338ab2-a6c4-4ddd-8118-493ca5495612), which reaches them on a later turn — not a live back-and-forth — and use SendMessage to tell your user only when you have a real result to share. If it is just an FYI with nothing for you to do, it is fine to stay silent — no need to reply just to acknowledge it.
