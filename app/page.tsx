@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { AdSlot } from "@/components/AdSlot";
@@ -39,12 +40,15 @@ export default function HomePage() {
         <div className="md:col-span-9">
           {featured ? (
             <section className="pb-12">
-              <Link href={storyHref(featured)} className="block">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+              <Link href={storyHref(featured)} className="featured-lift block">
+                <Image
                   src={featured.comic.src}
                   alt={featured.comic.alt}
-                  className="featured-fade w-full bg-white"
+                  width={featured.comic.width ?? 1200}
+                  height={featured.comic.height ?? 675}
+                  sizes="(max-width: 1024px) 100vw, 1200px"
+                  priority
+                  className="h-auto w-full bg-white"
                 />
               </Link>
               <p className="mt-2 font-sans text-sm text-neutral-500">
@@ -61,7 +65,7 @@ export default function HomePage() {
                   {featured.headline}
                 </Link>
               </h2>
-              <p className="mt-4 max-w-2xl font-sans text-[1.05rem] leading-relaxed text-neutral-600">{featured.recap}</p>
+              <p className="mt-4 max-w-2xl font-sans text-[1.05rem] leading-relaxed text-neutral-600">{featured.dek || featured.recap.split(/\n\s*\n/)[0]}</p>
               <p className="mt-3 font-sans text-sm">
                 Source:{" "}
                 <a className="text-leaf underline underline-offset-2" href={featured.source.url}>

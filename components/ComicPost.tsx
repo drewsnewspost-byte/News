@@ -1,19 +1,22 @@
+import Image from "next/image";
 import { SECTION_LABEL } from "@/lib/site";
 import type { ComicPost as ComicPostType } from "@/lib/types";
 
 export function ComicPost({ post }: { post: ComicPostType }) {
   const credit = post.comic.credit || post.source.publisher || post.source.title;
   const caption = post.comic.caption || post.dek;
+  const grafs = post.recap.split(/\n\s*\n/).map((g) => g.trim()).filter(Boolean);
   return (
     <article className="bg-white">
       <figure>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
+        <Image
           src={post.comic.src}
           alt={post.comic.alt}
-          width={post.comic.width}
-          height={post.comic.height}
-          className="w-full bg-mist"
+          width={post.comic.width ?? 1200}
+          height={post.comic.height ?? 675}
+          sizes="(max-width: 1024px) 100vw, 800px"
+          priority
+          className="h-auto w-full bg-white"
         />
         <figcaption className="mt-2 font-sans text-sm text-neutral-500">
           {caption ? <span>{caption}</span> : null}
@@ -26,7 +29,13 @@ export function ComicPost({ post }: { post: ComicPostType }) {
         {post.section === "humor" ? " · SATIRE" : ""}
       </p>
       <h1 className="mt-2 font-serif text-3xl leading-tight text-neutral-900 md:text-4xl">{post.headline}</h1>
-      <p className="mt-5 font-sans text-base leading-7 text-neutral-800">{post.recap}</p>
+      <div className="mt-5 space-y-4">
+        {grafs.map((graf) => (
+          <p key={graf.slice(0, 48)} className="font-sans text-base leading-7 text-neutral-800">
+            {graf}
+          </p>
+        ))}
+      </div>
       <p className="mt-4 font-sans text-sm">
         Source:{" "}
         <a className="text-leaf underline underline-offset-2" href={post.source.url}>
