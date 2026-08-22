@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { SECTION_LABEL, SECTION_TONE } from "@/lib/site";
 import type { Story } from "@/lib/types";
@@ -6,12 +7,20 @@ import { formatDeskDate, storyHref, storyPublished } from "@/lib/urls";
 export function StoryCard({ story }: { story: Story }) {
   const href = storyHref(story);
   const credit = story.comic.credit || story.source.publisher || story.source.title;
+  const width = story.comic.width ?? 560;
+  const height = story.comic.height ?? 420;
   return (
     <article className="story-card-lift flex flex-col bg-white">
       <Link href={href} className="block">
         <div className="overflow-hidden bg-mist">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={story.comic.src} alt={story.comic.alt} className="w-full object-cover" />
+          <Image
+            src={story.comic.src}
+            alt={story.comic.alt}
+            width={width}
+            height={height}
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 560px"
+            className="h-auto w-full object-cover"
+          />
         </div>
       </Link>
       <p className="mt-2 font-sans text-xs text-neutral-500">{credit}</p>
