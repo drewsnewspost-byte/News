@@ -6,7 +6,7 @@ export function StoryGrid({ stories }: { stories: Story[] }) {
     return <p className="font-sans text-neutral-500">No published comics on this desk yet.</p>;
   }
   return (
-    <div className="grid gap-10 sm:grid-cols-2">
+    <div className="relative grid grid-cols-1 gap-10 sm:grid-cols-2">
       {stories.map((story) => (
         <StoryCard key={`${story.section}-${story.slug}`} story={story} />
       ))}

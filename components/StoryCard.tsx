@@ -11,7 +11,7 @@ export function StoryCard({ story }: { story: Story }) {
   const height = story.comic.height ?? 420;
   const recap = (story.dek || story.recap).split(/\n\s*\n/)[0];
   return (
-    <article className="story-card-lift flex flex-col border border-leaf/40 p-3 bg-white pb-8">
+    <article className="story-card-lift relative isolate min-w-0 flex flex-col border border-leaf/40 p-3 bg-white pb-8">
       <Link href={href} className="block">
         <div className="overflow-hidden bg-white">
           <Image

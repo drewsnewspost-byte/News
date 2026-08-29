@@ -42,7 +42,7 @@ export default function HomePage() {
       <JsonLd data={jsonLd} />
       <h1 className="sr-only">{HOME_TITLE}</h1>
       <div className="md:grid md:grid-cols-12 md:items-start md:gap-10">
-        <div className="md:col-span-9">
+        <div className="min-w-0 md:col-span-9">
           {featured ? (
             <section className="pb-12">
               <Link href={storyHref(featured)} className="featured-lift featured-fade block">
@@ -89,7 +89,7 @@ export default function HomePage() {
             <StoryGrid stories={latest} />
           </section>
         </div>
-        <aside className="mt-8 flex flex-col gap-3 md:col-span-3 md:mt-0">
+        <aside className="mt-8 flex min-w-0 flex-col gap-3 md:col-span-3 md:mt-0">
           <AdSlot />
         </aside>
       </div>

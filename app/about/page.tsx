@@ -26,7 +26,7 @@ export default function AboutPage() {
   return (
     <main className="shell py-12 md:py-16">
       <div className="md:grid md:grid-cols-12 md:items-start md:gap-12">
-        <div className="md:col-span-4">
+        <div className="min-w-0 md:col-span-4">
           <Image
             src="/about/drew.png"
             alt="Drew, founder of Drew's Comic Newsroom"
@@ -36,7 +36,7 @@ export default function AboutPage() {
             className="mx-auto h-auto w-full max-w-sm border-2 border-leaf bg-white md:mx-0"
           />
         </div>
-        <div className="mt-8 max-w-2xl font-sans text-[1.05rem] leading-relaxed text-neutral-700 md:col-span-8 md:mt-0">
+        <div className="mt-8 min-w-0 max-w-2xl font-sans text-[1.05rem] leading-relaxed text-neutral-700 md:col-span-8 md:mt-0">
           <h1 className="font-serif text-3xl font-medium tracking-tight text-ink md:text-4xl">
             About Drew&apos;s Comic Newsroom
           </h1>
