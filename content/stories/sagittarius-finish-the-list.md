@@ -1,19 +1,16 @@
 ---
-headline: "Sagittarius horoscope today: finish the list, don’t step on toes"
-dek: "Saturday’s Sagittarius daily from horoscope.com: the drive finishes the list, but the elbows step on toes. Share the light."
+headline: "Sagittarius: finish the list, don’t collect toes"
 comic:
   src: "/comics/sagittarius-finish-the-list.png"
   caption: "Four panels: the to-do list falls, oops toes, share the light, clap anyway."
   credit: "Comic: Topics / Drew’s Comic Newsroom. Source: horoscope.com general daily, Aug. 29, 2026."
   alt: "Four-panel Sagittarius comic: a cartoon archer checks off a to-do list, accidentally pokes a coworker’s shoe, looks grumpy when someone else takes the spotlight, then claps for them."
-  width: 1200
-  height: 675
 source:
   url: "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=9"
-  title: "Sagittarius daily horoscope"
+  title: "Daily Horoscope for Sagittarius"
   publisher: "horoscope.com"
 datePublished: "2026-08-29T07:07:00-07:00"
-dateModified: "2026-08-29T07:08:00-07:00"
+dateModified: "2026-08-29T07:07:00-07:00"
 section: horoscope
 status: published
 slug: sagittarius-finish-the-list

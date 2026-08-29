@@ -1,19 +1,16 @@
 ---
 headline: "An index fund is a shopping cart, not a stock pick"
-dek: "An index fund holds a list of stocks, such as the S&P 500, so you get the market average without buying every name yourself."
 comic:
   src: "/comics/index-fund-shopping-cart.png"
   caption: "Four panels: buy all of them, the fund buys the list, low fee vs active, you get the average."
   credit: "Comic: Topics / Drew’s Comic Newsroom. Source: Fidelity Learning Center, March 26, 2026. Educational, not advice."
   alt: "Four-panel explainer comic comparing an index-fund shopping cart to picking every stock on the wall, then choosing a low-fee cart and walking off with the market average."
-  width: 1200
-  height: 675
 source:
   url: "https://www.fidelity.com/learning-center/smart-money/what-is-an-index-fund"
-  title: "What is an index fund?"
+  title: "What is an index fund and how does it work?"
   publisher: "Fidelity Learning Center"
 datePublished: "2026-08-29T07:04:00-07:00"
-dateModified: "2026-08-29T07:07:00-07:00"
+dateModified: "2026-08-29T07:04:00-07:00"
 section: finance
 status: published
 slug: index-fund-shopping-cart
