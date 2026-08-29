@@ -21,8 +21,9 @@ export function SiteBanner() {
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex h-7 items-center justify-center border border-leaf px-2.5 font-sans text-[11px] font-semibold uppercase tracking-wider text-leaf hover:bg-leaf hover:text-white"
+          aria-label="Subscribe"
         >
-          Substack
+          Subscribe
         </a>
       </div>
     </div>
