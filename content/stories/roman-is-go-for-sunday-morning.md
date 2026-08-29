@@ -3,24 +3,26 @@ headline: "Roman is go for Sunday morning"
 dek: "NASA cleared the Roman Space Telescope for a Sunday Falcon Heavy try, no earlier than 7:26 a.m., to map dark energy, galaxies, and planets."
 comic:
   src: "/comics/roman-is-go-for-sunday-morning.png"
-  caption: "Four panels: a GO stamp, Falcon Heavy at 7:26 Sunday, a wide sky versus a Hubble postage stamp, a survey of dark energy, galaxies, and planets."
+  caption: "Four panels: GO stamp, the pad at 7:26, a wide-field snapshot, the survey."
   credit: "Comic: Topics / Drew’s Comic Newsroom. Source: NASA Roman blog, Aug. 28, 2026."
   alt: "Four-panel science comic: a launch checklist stamped GO, a Falcon Heavy on the pad at 7:26 a.m. Sunday, a wide-field sky snapshot versus a tiny Hubble postage stamp, then a survey of dark energy, galaxies, and planets."
   width: 1200
   height: 675
 source:
   url: "https://science.nasa.gov/blogs/roman/2026/08/28/nasas-roman-space-telescope-go-for-launch/"
-  title: "NASA’s Roman Space Telescope go for launch"
+  title: "NASA’s Roman Space Telescope ‘Go’ for Launch"
   publisher: "NASA"
-datePublished: "2026-08-29T07:20:00-07:00"
-dateModified: "2026-08-29T07:22:00-07:00"
+datePublished: "2026-08-29T07:18:00-07:00"
+dateModified: "2026-08-29T07:24:00-07:00"
 section: science
 status: published
 slug: roman-is-go-for-sunday-morning
 ---
 
-NASA’s Roman blog says the Space Telescope is go for launch. The try is Sunday morning on a Falcon Heavy, no earlier than 7:26 a.m.
+NASA’s Nancy Grace Roman Space Telescope is “go” for launch. The agency and SpaceX finished the Launch Readiness Review on Friday at Kennedy Space Center, the last gate before countdown, NASA’s Roman blog says.
 
-Roman’s job is the wide map: dark energy, galaxies, and planets, not Hubble’s postage-stamp portraits.
+Liftoff is targeted for 7:26 a.m. EDT Sunday, Aug. 30, from Launch Complex 39A. Space Launch Delta 45 weather officers put favorable conditions at 60 percent. It would be NASA’s sixth primary Falcon mission from Kennedy, after IXPE, Psyche, GOES-U, Europa Clipper, and IMAP.
 
-The checklist got a GO. The pad is next.
+Roman is built for deep, sweeping surveys: dark energy and dark matter, planets around other stars, maps of billions of galaxies, black holes, and a public data flood.
+
+If the clock holds, commissioning starts on the way there. Science comes after arrival.
