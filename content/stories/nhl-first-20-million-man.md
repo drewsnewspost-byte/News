@@ -1,19 +1,16 @@
 ---
-headline: "Cale Makar becomes the NHL’s first $20 million man"
-dek: "Cale Makar signed an eight-year, $163.2 million Avalanche extension at $20.4 million AAV, the richest contract in NHL history."
+headline: "The NHL’s first $20 million man is a defenseman"
 comic:
   src: "/comics/nhl-first-20-million-man.png"
   caption: "Four panels: the signing, the $20.4M scoreboard, the bar moves, a decade in Colorado."
   credit: "Comic: Topics / Drew’s Comic Newsroom. Source: NHL.com, Aug. 28, 2026."
   alt: "Four-panel comic about Cale Makar’s record Avalanche contract: he signs, a scoreboard shows 8 years, $163.2 million, and $20.4 million AAV, teammates say the bar just moved, then he skates toward a decade in Colorado."
-  width: 1200
-  height: 675
 source:
   url: "https://www.nhl.com/news/cale-makar-signs-eight-year-contract-with-colorado-avalanche"
-  title: "Cale Makar signs eight-year contract with Colorado Avalanche"
+  title: "Makar signs record 8-year, $163.2 million contract with Avalanche, worth $20.4M annually"
   publisher: "NHL.com"
 datePublished: "2026-08-29T07:05:00-07:00"
-dateModified: "2026-08-29T07:07:00-07:00"
+dateModified: "2026-08-29T07:05:00-07:00"
 section: sports
 status: published
 slug: nhl-first-20-million-man

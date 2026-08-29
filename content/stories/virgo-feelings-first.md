@@ -1,19 +1,16 @@
 ---
-headline: "Virgo horoscope today: feelings first, decisions later"
-dek: "Saturday’s Virgo daily from horoscope.com: feelings are loud, direction is not. Calm down before you pick a door."
+headline: "Virgo: feelings first, decisions later"
 comic:
   src: "/comics/virgo-feelings-first.png"
   caption: "Four panels: loud feelings at a fork, a PUSH cloud on the heart, calm first, decide later."
   credit: "Comic: Topics / Drew’s Comic Newsroom. Source: horoscope.com general daily, Aug. 29, 2026."
   alt: "Four-panel Virgo comic: a neat green figure at a fork in the road with a glowing heart, rattled by a PUSH storm cloud, sitting to breathe, then waiting with a notebook between two closed doors."
-  width: 1200
-  height: 675
 source:
   url: "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6"
-  title: "Virgo daily horoscope"
+  title: "Daily Horoscope for Virgo"
   publisher: "horoscope.com"
 datePublished: "2026-08-29T07:06:00-07:00"
-dateModified: "2026-08-29T07:08:00-07:00"
+dateModified: "2026-08-29T07:06:00-07:00"
 section: horoscope
 status: published
 slug: virgo-feelings-first
