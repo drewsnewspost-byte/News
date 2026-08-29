@@ -19,18 +19,18 @@ status: published
 slug: floating-points-mere-mortals
 ---
 
-## What happened
+What happened
 
 Floating Points, the recording name of Sam Shepherd, has released Mere Mortals, the score to a San Francisco Ballet piece of the same name. Pitchfork says the European premiere was Friday, Aug. 28, at the Edinburgh International Festival. The album is on Deutsche Grammophon. The ballet, choreographed by Aszure Barton and commissioned by Tamara Rojo, debuted in 2024 and retells Pandora.
 
 The usual version is the woman who opened the box and let evil out. Shepherd’s read is the opposite of the scolding. Later tellings, he says, stripped her of agency and kindness. “If you look at how her story was translated over time, she was completely stripped of her agency and kindness. Pandora’s about bringing hell to Earth. She really represents curiosity and change.” The ending stays mournful. Hope leaves the jar and circles a planet already burned down. That cue is the album closer, “Nowhere to Land.”
 
-## Why it matters
+Why it matters
 
 A surprise album that is also a program note is a neat trick: you can hear the myth without a ticket, and the ticketed premiere still has a first night in Europe. Shepherd says hearing violinist Cordula Merks play what he had written on the page made him want to write more for the instrument. That is a composer hearing his paper become a body, which is the whole point of writing for ballet in the first place. The San Francisco production already existed. Edinburgh is the European landing. The record is how the rest of us get in.
 
 Curiosity, in this telling, is not a sin. It is the plot. The last track refuses a landing anyway. You can restore Pandora’s agency and still end on ash. The record holds both ideas without sanding either one down, which is why the strip’s jar releases questions, not cartoon monsters, and why the last panel is a violin next to a dead planet.
 
-## Conclusion
+Conclusion
 
 Mere Mortals is a jar, a violin, and a planet that hope cannot land on. Edinburgh got the dance on Friday. Deutsche Grammophon got the score. Shepherd got a reason to write more for violin after hearing Merks play the page. That is enough for a culture package, and it is all Pitchfork gave us to work with: a myth retold as curiosity, then a closer that still will not land.
