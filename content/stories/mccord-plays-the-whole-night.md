@@ -1,6 +1,6 @@
 ---
 headline: "McCord plays the whole night. The roster waits until Sunday."
-dek: "With Love and Taylor resting, Green Bay’s reserve quarterback went 22 of 35 for 226 yards and four TDs in a 42-38 preseason win. Final cuts are in 48 hours."
+dek: "Kyle McCord threw four touchdowns in Green Bay’s 42-38 preseason finale, then went back to waiting on Sunday’s roster cuts."
 comic:
   src: "/comics/mccord-plays-the-whole-night.png"
   caption: "Four panels: starters sit, four TDs, two late strikes, Sunday cuts."
