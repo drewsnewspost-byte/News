@@ -13,7 +13,7 @@ source:
   title: "Emergency fund"
   publisher: "Fidelity Learning Center"
 datePublished: "2026-08-29T07:09:00-07:00"
-dateModified: "2026-08-29T08:25:00-07:00"
+dateModified: "2026-08-29T08:30:00-07:00"
 section: finance
 status: published
 slug: emergency-fund
