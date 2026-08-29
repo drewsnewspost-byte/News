@@ -9,7 +9,12 @@ export function Footer() {
           Drew&apos;s <span className="text-leaf">Comic</span> Newsroom
         </p>
         <p className="mt-2">Comics on the day’s news. One strip, a short recap, a source.</p>
-        <ul className="mt-4 flex flex-wrap gap-x-4 gap-y-1">
+        <ul className="mt-6 grid grid-cols-5 text-center">
+          <li>
+            <Link href="/" className="uppercase tracking-wide text-leaf hover:text-forest hover:underline">
+              Home
+            </Link>
+          </li>
           {NAV_SECTIONS.map((section) => (
             <li key={section}>
               <Link href={`/${section}/`} className="uppercase tracking-wide text-leaf hover:text-forest hover:underline">
@@ -17,13 +22,14 @@ export function Footer() {
               </Link>
             </li>
           ))}
-          <li>
-            <Link href="/about/" className="uppercase tracking-wide text-leaf hover:text-forest hover:underline">
-              About
-            </Link>
-          </li>
         </ul>
-        <p className="mt-6">© {new Date().getFullYear()} {SITE_NAME}</p>
+        <p className="mt-6">
+          © {new Date().getFullYear()} {SITE_NAME}
+          {" · "}
+          <Link href="/about/" className="text-leaf hover:text-forest hover:underline">
+            About
+          </Link>
+        </p>
       </div>
     </footer>
   );

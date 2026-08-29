@@ -7,7 +7,7 @@ export function SectionNav() {
   const pathname = usePathname() || "/";
   return (
     <nav className="sticky top-0 z-20 border-b-2 border-leaf bg-white/95 backdrop-blur" aria-label="Sections">
-      <ul className="shell flex flex-wrap items-center justify-center gap-x-5">
+      <ul className="shell grid grid-cols-5 text-center">
         <li>
           <Link href="/" className={pathname === "/" ? "nav-link-active" : "nav-link"}>
             Home
@@ -24,11 +24,6 @@ export function SectionNav() {
             </li>
           );
         })}
-        <li>
-          <Link href="/about/" className={pathname === "/about/" || pathname.startsWith("/about") ? "nav-link-active" : "nav-link"}>
-            About
-          </Link>
-        </li>
       </ul>
     </nav>
   );

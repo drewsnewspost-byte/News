@@ -14,6 +14,12 @@ export function Masthead() {
             <span className="text-ink"> Newsroom</span>
           </span>
         </Link>
+        <Link
+          href="/about/"
+          className="ml-auto font-sans text-[11px] uppercase tracking-[0.16em] text-leaf hover:text-forest"
+        >
+          About
+        </Link>
       </div>
     </header>
   );
