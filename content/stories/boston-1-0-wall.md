@@ -13,7 +13,7 @@ source:
   title: "Red Sox run"
   publisher: "Boston 25"
 datePublished: "2026-08-29T07:19:00-07:00"
-dateModified: "2026-08-29T07:19:00-07:00"
+dateModified: "2026-08-29T07:27:00-07:00"
 section: sports
 status: published
 slug: boston-1-0-wall
