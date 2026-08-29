@@ -15,6 +15,12 @@ const nextConfig: NextConfig = {
     return [
       { source: "/politics/:path*", destination: "/", statusCode: 301 },
       { source: "/environment/:path*", destination: "/", statusCode: 301 },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "drewscomicnewsroom.com" }],
+        destination: "https://www.drewscomicnewsroom.com/:path*",
+        permanent: true,
+      },
     ];
   },
 };

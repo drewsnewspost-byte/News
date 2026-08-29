@@ -1,5 +1,5 @@
 ---
-headline: "How has a famous group of 2,000 year-old Chinese rock paintings remained so vibrant? Because it was made with blood, new research says"
+headline: "Huashan rock paintings stayed red for 2,000 years because the paint included blood"
 comic:
   src: "/comics/huashan-red.png"
   caption: "Cool chemistry. Don’t write the whole origin myth from three chips."
@@ -10,7 +10,7 @@ source:
   title: "How has a famous group of 2,000 year-old Chinese rock paintings remained so vibrant? Because it was made with blood, new research says"
   publisher: "The Art Newspaper"
 datePublished: "2026-08-22T16:00:00-07:00"
-dateModified: "2026-08-22T16:00:00-07:00"
+dateModified: "2026-08-29T07:05:00-07:00"
 section: culture
 status: published
 slug: huashan-red

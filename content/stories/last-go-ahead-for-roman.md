@@ -1,5 +1,5 @@
 ---
-headline: "Last go-ahead for Roman"
+headline: "NASA clears Roman telescope for an Aug. 30 Falcon Heavy try"
 comic:
   src: "/comics/roman-go.png"
   caption: "Portraits. Close-ups. (Roman does the wide map.)"
@@ -10,7 +10,7 @@ source:
   title: "Teams complete Flight Readiness Review for NASA’s Roman Telescope"
   publisher: "NASA"
 datePublished: "2026-08-22T14:40:00-07:00"
-dateModified: "2026-08-22T14:40:00-07:00"
+dateModified: "2026-08-29T07:05:00-07:00"
 section: science
 status: published
 slug: last-go-ahead-for-roman
