@@ -1,4 +1,15 @@
+import { TickerTape } from "@/components/TickerTape";
+import { getPublishedStories } from "@/lib/stories";
+import { storyHref } from "@/lib/urls";
+
 export function SiteBanner() {
+  const items = getPublishedStories()
+    .filter((story) => story.section !== "politics")
+    .map((story) => ({
+      href: storyHref(story),
+      headline: story.headline,
+    }));
+
   return (
     <div>
       <div className="bg-leaf">
@@ -6,6 +17,7 @@ export function SiteBanner() {
           Comics on the day’s news
         </p>
       </div>
+      <TickerTape items={items} />
       <div className="flex items-center justify-center gap-2 border-b border-leaf/40 bg-white py-2">
         <a
           href="https://x.com/DrewsComicNews"
