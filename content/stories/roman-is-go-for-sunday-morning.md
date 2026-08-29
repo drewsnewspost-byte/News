@@ -13,7 +13,7 @@ source:
   title: "NASA’s Roman Space Telescope ‘Go’ for Launch"
   publisher: "NASA"
 datePublished: "2026-08-29T07:18:00-07:00"
-dateModified: "2026-08-29T08:20:00-07:00"
+dateModified: "2026-08-29T08:25:00-07:00"
 section: science
 status: published
 slug: roman-is-go-for-sunday-morning
@@ -33,4 +33,4 @@ If the clock holds, the observatory takes roughly 100 days to reach L2, commissi
 
 ## Conclusion
 
-Sunday morning is a weather percentage and a clock, not a discovery yet. The discovery machine is what got the stamp. If it leaves the pad, the sky survey is the story that follows, and the strip’s last panel is that survey, not a trophy photo of a rocket.
+Sunday morning is still only a weather percentage and a clock. No galaxy has been mapped yet, and no dark-energy plot has been drawn. What got the stamp is the machine that is supposed to do that work, and the last panel of the strip is the survey, not a trophy photo of a rocket. If it leaves the pad at 7:26 a.m., commissioning starts on the way to L2 and the story moves from hangar to sky. If it does not, the “go” was still the last honest status NASA could file on Friday.

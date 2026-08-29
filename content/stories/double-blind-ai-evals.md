@@ -13,7 +13,7 @@ source:
   title: "Piloting the world’s first double-blind AI evaluations"
   publisher: "Google DeepMind"
 datePublished: "2026-08-29T07:10:00-07:00"
-dateModified: "2026-08-29T08:20:00-07:00"
+dateModified: "2026-08-29T08:25:00-07:00"
 section: ai
 status: published
 slug: double-blind-ai-evals
@@ -33,4 +33,4 @@ The post is a pilot, not a new public scoreboard. It is a method claim: you can 
 
 ## Conclusion
 
-If the model already saw the test, the score is mush. DeepMind is trying to run an exam where nobody peeks. That is the whole story, and it is why the comic is a locked box instead of a trophy.
+If the model already saw the test, the score is mush, and a 100 with an asterisk is not a measurement. DeepMind is trying to run an exam where the tester cannot see the weights and the company cannot see the questions. That is the whole story of the Aug. 27 post, and it is why the comic is a locked box instead of a trophy. The pilot either becomes a pattern other labs can copy or it stays a one-off method note. Either way, the recap should not pretend a new leaderboard dropped.

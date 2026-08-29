@@ -10,7 +10,7 @@ source:
   title: "Daily Horoscope for Sagittarius"
   publisher: "horoscope.com"
 datePublished: "2026-08-29T07:07:00-07:00"
-dateModified: "2026-08-29T08:20:00-07:00"
+dateModified: "2026-08-29T08:25:00-07:00"
 section: horoscope
 status: published
 slug: sagittarius-finish-the-list
@@ -30,4 +30,4 @@ A Saturday with a quicker moon, as the site’s weekend blurb notes, can make th
 
 ## Conclusion
 
-Get it done. Leave the toes. Share the light. Credit: https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=9
+The daily’s last sentences are the ones that survive a Saturday. Be careful. Be considerate of other people’s emotions. Do not get upset if someone else takes the spotlight for a while. Getting things done is allowed; it is even named as a benefit of the same aggressive nature that causes the trouble. The closer is not “slow down.” It is “finish the list without collecting toes, and clap when the light moves.” That is the dated copy, drawn. Credit: https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=9
