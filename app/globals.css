@@ -50,7 +50,7 @@ body { -webkit-font-smoothing: antialiased; }
   border-bottom: 2px solid transparent;
 }
 .nav-link {
-  color: #525252;
+  color: #2D6A4F;
   transition: color 160ms ease, border-color 160ms ease;
 }
 .nav-link:hover {

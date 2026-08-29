@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { AdSlot } from "@/components/AdSlot";
-import { NewsletterSignup } from "@/components/NewsletterSignup";
 import { StoryGrid } from "@/components/StoryGrid";
 import { collectionLd, HOME_TITLE } from "@/lib/seo";
 import { getPublishedStories } from "@/lib/stories";
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 export default function HomePage() {
   const stories = getPublishedStories();
   const featured =
-    stories.find((s) => /\.(png|jpe?g|webp)$/i.test(s.comic.src) || s.comic.src.includes("/comics/")) ??
+    stories.find((s) => /\\.(png|jpe?g|webp)$/i.test(s.comic.src) || s.comic.src.includes("/comics/")) ??
     stories[0];
   const latest = stories.filter((s) => s.slug !== featured?.slug);
   const jsonLd = collectionLd(
@@ -34,7 +33,9 @@ export default function HomePage() {
 
   return (
     <>
-    <NewsletterSignup variant="band" />
+    <div className="bg-leaf">
+      <p className="px-4 py-1.5 text-center font-sans text-[11px] font-semibold uppercase tracking-[0.2em] text-white">Comics on the day’s news</p>
+    </div>
     <main className="shell py-10">
       <JsonLd data={jsonLd} />
       <h1 className="sr-only">{HOME_TITLE}</h1>
@@ -79,7 +80,7 @@ export default function HomePage() {
               </p>
             </section>
           ) : null}
-          <section className="border-t border-neutral-200 pt-10">
+          <section className="border-t border-leaf/30 pt-10">
             <div className="mb-8 flex items-baseline justify-between">
               <h2 className="font-sans text-[11px] uppercase tracking-widest text-leaf">The Latest</h2>
             </div>
@@ -88,7 +89,6 @@ export default function HomePage() {
         </div>
         <aside className="mt-8 flex flex-col gap-3 md:col-span-3 md:mt-0">
           <AdSlot />
-          <NewsletterSignup variant="rail" />
         </aside>
       </div>
     </main>

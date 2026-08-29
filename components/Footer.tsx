@@ -1,10 +1,9 @@
 import Link from "next/link";
-import { NewsletterSignup } from "@/components/NewsletterSignup";
 import { NAV_SECTIONS, NAV_LABEL, SITE_NAME } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="mt-16 border-t border-neutral-200 bg-white">
+    <footer className="mt-16 border-t-2 border-leaf bg-white">
       <div className="shell py-10 font-sans text-sm text-neutral-500">
         <p className="font-sans text-xl font-bold tracking-tight text-ink">
           Drew&apos;s <span className="text-leaf">Comic</span> Newsroom
@@ -19,7 +18,6 @@ export function Footer() {
             </li>
           ))}
         </ul>
-        <NewsletterSignup variant="footer" />
         <p className="mt-6">© {new Date().getFullYear()} {SITE_NAME}</p>
       </div>
     </footer>
