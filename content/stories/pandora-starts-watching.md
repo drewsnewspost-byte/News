@@ -1,6 +1,6 @@
 ---
 headline: "Pandora starts watching the star that lies a little"
-dek: "NASA’s Pandora mission is beginning to separate exoplanet signals from the noisy stars they orbit, to help James Webb."
+dek: "NASA’s Pandora smallsat is now taking science data, staring at transiting planets and their spotted host stars so Webb can tell air from starlight."
 comic:
   src: "/comics/pandora-starts-watching.png"
   caption: "Four panels: SmallSat on duty, a splotchy star, unmix the light, help Webb."

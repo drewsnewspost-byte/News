@@ -1,6 +1,6 @@
 ---
 headline: "Roman is go for Sunday morning"
-dek: "NASA cleared the Roman Space Telescope for a Sunday Falcon Heavy try, no earlier than 7:26 a.m., to map dark energy, galaxies, and planets."
+dek: "NASA is go for a Sunday 7:26 a.m. EDT Falcon Heavy launch of the Roman Space Telescope from Pad 39A."
 comic:
   src: "/comics/roman-is-go-for-sunday-morning.png"
   caption: "Four panels: GO stamp, the pad at 7:26, a wide-field snapshot, the survey."
