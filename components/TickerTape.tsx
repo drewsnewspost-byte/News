@@ -4,54 +4,46 @@ import Link from "next/link";
 
 export type TickerItem = {
   href: string;
-  headline: string;
+  src: string;
+  alt: string;
 };
 
 function padUnit(items: TickerItem[]): TickerItem[] {
-  if (items.length === 0) {
-    return [{ href: "/", headline: "COMICS ON THE DAY'S NEWS" }];
-  }
   const unit = [...items];
-  while (unit.length < 10) {
+  while (unit.length > 0 && unit.length < 12) {
     unit.push(...items);
   }
   return unit;
 }
 
-function Dingbat() {
+function Unit({ items, hidden }: { items: TickerItem[]; hidden?: boolean }) {
   return (
-    <span className="ticker-dingbat" aria-hidden="true">
-      ★
-    </span>
+    <div className="ticker-unit" aria-hidden={hidden || undefined}>
+      {items.map((item, i) => (
+        <Link
+          key={`${hidden ? "b" : "a"}-${item.href}-${i}`}
+          href={item.href}
+          className="ticker-cell"
+          tabIndex={hidden ? -1 : undefined}
+          aria-label={item.alt}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={item.src} alt="" width={72} height={36} className="ticker-thumb" />
+        </Link>
+      ))}
+    </div>
   );
 }
 
 export function TickerTape({ items }: { items: TickerItem[] }) {
+  if (items.length === 0) return null;
   const unit = padUnit(items);
-  const duration = Math.max(36, unit.length * 3.2);
+  const duration = Math.max(28, unit.length * 2.4);
   return (
-    <div className="ticker" role="region" aria-label="Latest headlines">
+    <div className="ticker" role="region" aria-label="Latest comics">
       <div className="ticker-track" style={{ animationDuration: `${duration}s` }}>
-        <div className="ticker-unit">
-          {unit.map((item, i) => (
-            <span className="ticker-cell" key={`a-${item.href}-${i}`}>
-              <Dingbat />
-              <Link href={item.href} className="ticker-item">
-                {item.headline}
-              </Link>
-            </span>
-          ))}
-        </div>
-        <div className="ticker-unit" aria-hidden="true">
-          {unit.map((item, i) => (
-            <span className="ticker-cell" key={`b-${item.href}-${i}`}>
-              <Dingbat />
-              <Link href={item.href} className="ticker-item" tabIndex={-1}>
-                {item.headline}
-              </Link>
-            </span>
-          ))}
-        </div>
+        <Unit items={unit} />
+        <Unit items={unit} hidden />
       </div>
     </div>
   );

@@ -3,10 +3,13 @@ import { getPublishedStories } from "@/lib/stories";
 import { storyHref } from "@/lib/urls";
 
 export function SiteBanner() {
-  const items = getPublishedStories().map((story) => ({
-    href: storyHref(story),
-    headline: story.headline,
-  }));
+  const items = getPublishedStories()
+    .filter((story) => /\.(png|jpe?g|webp|gif)$/i.test(story.comic.src))
+    .map((story) => ({
+      href: storyHref(story),
+      src: story.comic.src,
+      alt: story.comic.alt || story.headline,
+    }));
 
   return (
     <div>
