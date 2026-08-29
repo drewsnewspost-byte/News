@@ -16,7 +16,7 @@ export const SECTIONS = [
 export type SectionSlug = (typeof SECTIONS)[number];
 
 /** Topics shown in the masthead/footer. Politics is not a desk. */
-export const NAV_SECTIONS = SECTIONS;
+export const NAV_SECTIONS = ["sports","finance","science","ai","horoscope","culture","humor"] as const satisfies readonly SectionSlug[];
 
 /** Section hubs always generated (empty CollectionPage is fine). */
 export const SECTION_ALLOWLIST = SECTIONS;
@@ -56,7 +56,7 @@ export const NAV_LABEL: Record<SectionSlug, string> = {
   sports: "Sports",
   finance: "Finance",
   science: "Science",
-  ai: "AI/Tech",
+  ai: "AI",
   animal: "Animals",
   culture: "Culture",
   horoscope: "Horoscope",
