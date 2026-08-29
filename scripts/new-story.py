@@ -5,7 +5,7 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-SECTIONS = ["sports", "finance", "science", "ai", "animal", "culture", "horoscope", "humor"]
+SECTIONS = ["sports", "finance", "science", "ai", "animal", "culture", "horoscope", "humor", "conspiracy", "movies"]
 
 def main():
     p = argparse.ArgumentParser(prog="new-story")

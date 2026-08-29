@@ -11,12 +11,14 @@ export const SECTIONS = [
   "culture",
   "horoscope",
   "humor",
+  "conspiracy",
+  "movies",
 ] as const;
 
 export type SectionSlug = (typeof SECTIONS)[number];
 
 /** Topics shown in the masthead/footer. Politics is not a desk. */
-export const NAV_SECTIONS = ["sports","finance","science","ai","horoscope","culture","humor"] as const satisfies readonly SectionSlug[];
+export const NAV_SECTIONS = ["sports","finance","science","ai","horoscope","culture","humor","conspiracy","movies"] as const satisfies readonly SectionSlug[];
 
 /** Section hubs always generated (empty CollectionPage is fine). */
 export const SECTION_ALLOWLIST = SECTIONS;
@@ -47,6 +49,8 @@ export const SECTION_LABEL: Record<SectionSlug, string> = {
   culture: "Culture and Curiosity",
   horoscope: "Horoscope",
   humor: "Humor",
+  conspiracy: "Conspiracy Theories",
+  movies: "Movie Reviews",
 };
 
 export const SECTION_LABELS = SECTION_LABEL;
@@ -61,6 +65,8 @@ export const NAV_LABEL: Record<SectionSlug, string> = {
   culture: "Culture",
   horoscope: "Horoscope",
   humor: "Humor",
+  conspiracy: "Conspiracy",
+  movies: "Movies",
 };
 
 
@@ -73,6 +79,8 @@ export const SECTION_TONE: Record<SectionSlug, string> = {
   culture: "text-ink",
   horoscope: "text-gold",
   humor: "text-olive",
+  conspiracy: "text-forest",
+  movies: "text-leaf",
 };
 
 export const SIGN_LABEL: Record<SignSlug, string> = {

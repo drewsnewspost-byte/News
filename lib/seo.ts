@@ -145,7 +145,7 @@ export function clipMeta(text: string, max = 160): string {
 }
 
 export const HOME_DESCRIPTION =
-  "Original comics on the day's news: sports, finance, science, AI, culture, horoscope, and humor. Each post is a strip, a source, and a short recap.";
+  "Original comics on the day's news: sports, finance, science, AI, culture, horoscope, humor, conspiracy theories, and movie reviews. Each post is a strip, a source, and a short recap.";
 
 export const SECTION_DESCRIPTION: Record<SectionSlug, string> = {
   sports: "Sports comics from Drew's Comic Newsroom. Each post is an original strip, the source story, and a short recap.",
@@ -156,4 +156,6 @@ export const SECTION_DESCRIPTION: Record<SectionSlug, string> = {
   culture: "Culture and Curiosity comics from Drew's Comic Newsroom. Art, history, and odd finds as a strip, source, and recap.",
   horoscope: "Daily horoscope comics from Drew's Comic Newsroom. Today's sign pages plus horoscope-desk strips, each with a source.",
   humor: "Humor comics from Drew's Comic Newsroom. Satire is labeled. Each post is a strip, a source, and a short recap.",
+  conspiracy: "Conspiracy Theories comics from Drew's Comic Newsroom. Odd claims and unexplained stories as a strip, source, and recap.",
+  movies: "Movie Reviews comics from Drew's Comic Newsroom. Films as a strip, a source, and a short recap.",
 };
