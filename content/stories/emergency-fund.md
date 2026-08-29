@@ -1,9 +1,9 @@
 ---
 headline: "An emergency fund is for the bill you did not put on the calendar"
-dek: "Start at $1,000, then work toward three to six months of must-pay expenses, kept in cash you can reach."
+dek: "Fidelity: start at $1,000, work toward three to six months of must-pay expenses, and keep the cash easy to reach."
 comic:
   src: "/comics/emergency-fund.png"
-  caption: "Four panels: emergency jar vs vacation jar, holiday gifts turned away, $1,000 toward three to six months, a savings account not a ticker."
+  caption: "Four panels: true surprises, not holiday gifts, $1,000 then boring months, keep it liquid."
   credit: "Comic: Topics / Drew’s Comic Newsroom. Source: Fidelity Learning Center, July 16, 2026. Educational, not advice."
   alt: "Four-panel explainer comic: an emergency jar next to a vacation jar, holiday gifts getting turned away, a $1,000 stack pointing at three to six months of rent and groceries, a simple savings account that is not a stock ticker."
   width: 1200
@@ -13,7 +13,7 @@ source:
   title: "Emergency fund"
   publisher: "Fidelity Learning Center"
 datePublished: "2026-08-29T07:09:00-07:00"
-dateModified: "2026-08-29T08:25:00-07:00"
+dateModified: "2026-08-29T08:30:00-07:00"
 section: finance
 status: published
 slug: emergency-fund
@@ -27,7 +27,7 @@ Fidelity’s guideline is blunt: start with $1,000, then aim for three to six mo
 
 ## Why it matters
 
-The explainer cites Federal Reserve figures that more than 37% of Americans would struggle with an unexpected $400 cost, and other survey numbers that almost half could not cover $1,000 and that 24% have no savings at all. For 2026, it says 29% of Americans have more credit-card debt than emergency savings. Swiping a card and paying interest can turn one shock into a longer one. Even insurance has deductibles and delays. The stash is there for the gap between the bill and the reimbursement, which is why “liquid” is doing real work in the definition.
+The explainer cites Federal Reserve figures that more than 37% of Americans would struggle with an unexpected $400 cost, and other survey numbers that almost half could not cover $1,000 and that 24% have no savings at all. For 2026, it says 29% of Americans have more credit-card debt than emergency savings. Swiping a card and paying interest can turn one shock into a longer one. Even insurance has deductibles and delays. The stash is there for the gap between the bill and the reimbursement, which is why liquid is doing real work in the definition.
 
 How to start, in their telling: pick an account you can open without a penalty, treat the transfer like a bill, automate it, park windfalls there, and refill the jar after you use it. Round-up tools and canceled subscriptions are small hoses into the same tank. Use a raise to bump the transfer before lifestyle creep eats it. The point is not to never spend it. The point is to spend it on the thing it was built for, then build it back.
 
