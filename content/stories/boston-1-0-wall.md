@@ -3,9 +3,9 @@ headline: "Red Sox run into a 1-0 wall in the Bronx"
 dek: "Paul Goldschmidt’s homer stood up after Ceddanne Rafaela was doubled off first and thrown out at the plate."
 comic:
   src: "/comics/boston-1-0-wall.png"
-  caption: "Four panels: a solo homer makes it 1-0, a runner doubled off, a laser throw at home, unused bats after a shutout."
+  caption: "Four panels: Goldschmidt 1-0, a bad read, Bellinger 99.7, shut out twice."
   credit: "Comic: Topics / Drew’s Comic Newsroom. Source: AP via Boston 25, Aug. 29, 2026."
-  alt: "Four-panel baseball comic: a solo homer makes it 1-0, a runner is doubled off, a laser throw beats the runner at home, then unused bats after a shutout."
+  alt: "Four-panel Yankees vs Red Sox comic: Goldschmidt hits a solo homer, a Red Sox runner is doubled off, Bellinger throws 99.7 mph to get the runner at home, scoreboard reads NYY 1 BOS 0."
   width: 1200
   height: 675
 source:
