@@ -13,7 +13,7 @@ source:
   title: "NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars"
   publisher: "NASA Science"
 datePublished: "2026-08-29T07:19:00-07:00"
-dateModified: "2026-08-29T08:20:00-07:00"
+dateModified: "2026-08-29T08:25:00-07:00"
 section: science
 status: published
 slug: pandora-starts-watching
@@ -33,4 +33,4 @@ Pioneers missions are cheap, fast, and allowed a higher tolerance for failure. P
 
 ## Conclusion
 
-The satellite is on the job. The star still lies a little. Pandora’s whole mission is to catch it in the act, then hand Webb a less muddy spectrum. That is the science, and it is the caption.
+The satellite is on the job, the commissioning fight is over, and the science stares have started. The star still lies a little, because stars are splotchy and they rotate. Pandora’s whole mission is to catch that lie in both visible and infrared light, over and over, then hand Webb a less muddy spectrum. That is the science, and it is the caption, and it is why this package exists as a SmallSat story instead of a Webb rerun.

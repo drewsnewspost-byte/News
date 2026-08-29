@@ -10,7 +10,7 @@ source:
   title: "Daily Horoscope for Virgo"
   publisher: "horoscope.com"
 datePublished: "2026-08-29T07:06:00-07:00"
-dateModified: "2026-08-29T08:20:00-07:00"
+dateModified: "2026-08-29T08:25:00-07:00"
 section: horoscope
 status: published
 slug: virgo-feelings-first
@@ -30,4 +30,4 @@ That is why the daily pairs “in touch with your emotions” with “difficult 
 
 ## Conclusion
 
-Calm down, then decide. That is the closer because that is the last sentence of the daily. Credit the URL when it ships, which is the house rule on this beat: https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6
+The dated paragraph does not end on a mood. It ends on a procedure. Calm down, then focus, then make the major decision, or do not make it yet. That order is the whole closer, and it is why the last panel is a notebook between two closed doors instead of a victory walk down one path. horoscope.com already wrote the instruction. The recap’s job is to leave the reader with that instruction still attached to Saturday’s date, still attached to Virgo, and still attached to the URL that carries the verbatim daily. Credit: https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=6

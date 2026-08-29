@@ -13,7 +13,7 @@ source:
   title: "Google DeepMind’s AI Co-Scientist now plans experiments, runs lab equipment, and writes scientific papers"
   publisher: "THE DECODER"
 datePublished: "2026-08-29T07:11:00-07:00"
-dateModified: "2026-08-29T08:20:00-07:00"
+dateModified: "2026-08-29T08:25:00-07:00"
 section: ai
 status: published
 slug: co-scientist-needs-a-human
@@ -33,4 +33,4 @@ It still writes methods that do not match the actual code, Schmidgall says, and 
 
 ## Conclusion
 
-Co-Scientist can run a loop. It still needs a human at the furnace, and a stamp that says check the logs. Assistant, not replacement, is the honest caption, and it is the one on the strip.
+Co-Scientist can run a loop from question to paper, and the reliability modules are the only reason the fabrication rate in that study looks like 4 percent instead of nearly half. It still needs a human at the furnace, a stamp that says check the logs, and a reader who does not confuse a benchmark win with a better answer. Assistant, not replacement, is the honest caption, and it is the one on the strip.
