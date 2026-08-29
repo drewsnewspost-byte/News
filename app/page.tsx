@@ -35,9 +35,6 @@ export default function HomePage() {
 
   return (
     <>
-    <div className="bg-leaf">
-      <p className="px-4 py-1.5 text-center font-sans text-[11px] font-semibold uppercase tracking-[0.2em] text-white">Comics on the day’s news</p>
-    </div>
     <main className="shell py-10">
       <JsonLd data={jsonLd} />
       <h1 className="sr-only">{HOME_TITLE}</h1>
