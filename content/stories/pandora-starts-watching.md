@@ -13,16 +13,24 @@ source:
   title: "NASA’s Pandora Mission Begins Study of Exoplanets, Host Stars"
   publisher: "NASA Science"
 datePublished: "2026-08-29T07:19:00-07:00"
-dateModified: "2026-08-29T07:24:00-07:00"
+dateModified: "2026-08-29T08:15:00-07:00"
 section: science
 status: published
 slug: pandora-starts-watching
 ---
 
-Pandora, NASA’s first Astrophysics Pioneers satellite, is now taking science data on exoplanets and the stars they orbit, NASA Science reports. The smallsat launched Jan. 11. Deputy project manager Jordan Karburn says the spacecraft is healthy and commissioning is done.
+## What happened
 
-The problem it was built for is a cheat in the light. During a transit, starlight skims a planet’s air and picks up chemical fingerprints, including water. The instruments also see the whole star, which is splotchy: hot faculae, cool spots, all of it moving as the star rotates. Those features can fake or hide a water signal, MIT’s Benjamin Rackham says.
+Pandora, NASA’s first Astrophysics Pioneers satellite, is now taking science data on exoplanets and the stars they orbit, NASA Science reports. The smallsat launched Jan. 11 into low Earth orbit. Deputy project manager Jordan Karburn at Lawrence Livermore says the spacecraft is healthy, the instruments are performing, and commissioning is done. The year-long primary mission will watch at least 20 exoplanets ten times each, with a 24-hour stare that includes a transit.
 
-Pandora stares in visible and near-infrared at once, and it stares long: at least 20 planets, 10 times each, 24-hour visits with a transit inside. Its near-infrared detector is a spare originally made for Webb. Principal investigator Elisa Quintana says the point is to know how the star’s light is messing with the planet’s.
+The problem it was built for is a cheat in the light. During a transit, starlight skims a planet’s air and picks up chemical fingerprints, including water. The instruments also see the whole star, which is splotchy: hot faculae, cool spots, all of it moving as the star rotates. Those features can fake or hide a water signal, MIT’s Benjamin Rackham says. Principal investigator Elisa Quintana at Goddard puts the gap simply: right now we cannot be entirely sure how the star’s light affects what we think is in the air.
 
-Pair the two telescopes and you can start separating star from air. That is the whole mission in one sentence.
+## Why it matters
+
+Webb is oversubscribed and cannot stare at one system for a day as a habit. Pandora can. It watches in visible and near-infrared at once. Its near-infrared detector is a spare originally made for Webb. Project scientist Knicole Colón says combining the two data sets is how you start to map a star’s surface and cleanly separate star from planet. That is not a luxury measurement. Water in an exoplanet atmosphere is one of the first things you want, and it is one of the easiest signals for a spotted star to counterfeit.
+
+Pioneers missions are cheap, fast, and allowed a higher tolerance for failure. Pandora’s bet is that a small aluminum telescope, about 18 inches across, can do the unmixing that flagship time cannot spare. If it works, later searches for worlds that might be livable start with a cleaner subtraction.
+
+## Conclusion
+
+The satellite is on the job. The star still lies a little. Pandora’s whole mission is to catch it in the act, then hand Webb a less muddy spectrum.
