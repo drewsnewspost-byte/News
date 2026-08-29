@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
       { pathname: "/comics/**" },
       { pathname: "/art/**" },
       { pathname: "/og/**" },
+      { pathname: "/about/**" },
     ],
   },
   async redirects() {

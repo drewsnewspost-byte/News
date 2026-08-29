@@ -17,6 +17,11 @@ export function Footer() {
               </Link>
             </li>
           ))}
+          <li>
+            <Link href="/about/" className="uppercase tracking-wide text-leaf hover:text-forest hover:underline">
+              About
+            </Link>
+          </li>
         </ul>
         <p className="mt-6">© {new Date().getFullYear()} {SITE_NAME}</p>
       </div>

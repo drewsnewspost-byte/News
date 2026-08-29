@@ -24,6 +24,11 @@ export function SectionNav() {
             </li>
           );
         })}
+        <li>
+          <Link href="/about/" className={pathname === "/about/" || pathname.startsWith("/about") ? "nav-link-active" : "nav-link"}>
+            About
+          </Link>
+        </li>
       </ul>
     </nav>
   );

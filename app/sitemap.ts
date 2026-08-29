@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const stories = getPublishedStories();
   return [
     { url: absUrl("/"), lastModified: new Date() },
+    { url: absUrl("/about/") },
     ...SECTION_ALLOWLIST.map((section) => ({ url: absUrl(`/${section}/`) })),
     ...SIGNS.map((sign) => ({ url: absUrl(signHref(sign)) })),
     ...stories.map((story) => ({
