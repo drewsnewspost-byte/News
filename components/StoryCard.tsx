@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { SECTION_LABEL, SECTION_TONE } from "@/lib/site";
+import { SECTION_LABEL } from "@/lib/site";
 import type { Story } from "@/lib/types";
 import { formatDeskDate, storyHref, storyPublished } from "@/lib/urls";
 
@@ -9,10 +9,11 @@ export function StoryCard({ story }: { story: Story }) {
   const credit = story.comic.credit || story.source.publisher || story.source.title;
   const width = story.comic.width ?? 560;
   const height = story.comic.height ?? 420;
+  const recap = (story.dek || story.recap).split(/\n\s*\n/)[0];
   return (
-    <article className="story-card-lift flex flex-col bg-white">
+    <article className="story-card-lift flex flex-col border-b border-neutral-200 bg-white pb-8">
       <Link href={href} className="block">
-        <div className="overflow-hidden bg-mist">
+        <div className="overflow-hidden bg-white">
           <Image
             src={story.comic.src}
             alt={story.comic.alt}
@@ -25,17 +26,17 @@ export function StoryCard({ story }: { story: Story }) {
       </Link>
       <p className="mt-2 font-sans text-xs text-neutral-500">{credit}</p>
       <div className="flex flex-1 flex-col pt-3">
-        <p className={`font-sans text-[11px] uppercase tracking-widest ${SECTION_TONE[story.section]}`}>
+        <p className="font-sans text-[11px] uppercase tracking-widest text-leaf">
           {SECTION_LABEL[story.section]}
           {story.section === "humor" ? " · SATIRE" : ""}
         </p>
-        <h2 className="mt-2 font-serif text-[1.35rem] font-medium leading-snug tracking-tight text-neutral-900">
+        <h2 className="mt-2 font-serif text-[1.35rem] font-medium leading-snug tracking-tight text-ink">
           <Link href={href} className="hover:text-leaf">
             {story.headline}
           </Link>
         </h2>
-        <p className="mt-2 flex-1 font-sans text-[15px] leading-relaxed text-neutral-600">{story.dek || story.recap}</p>
-        <p className="mt-3 font-sans text-xs text-neutral-400">
+        <p className="mt-2 line-clamp-2 flex-1 font-sans text-[15px] leading-relaxed text-neutral-600">{recap}</p>
+        <p className="mt-3 font-sans text-xs uppercase tracking-wide text-neutral-400">
           {formatDeskDate(storyPublished(story))}
         </p>
       </div>

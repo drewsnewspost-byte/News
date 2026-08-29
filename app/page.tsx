@@ -7,7 +7,7 @@ import { NewsletterSignup } from "@/components/NewsletterSignup";
 import { StoryGrid } from "@/components/StoryGrid";
 import { collectionLd, HOME_TITLE } from "@/lib/seo";
 import { getPublishedStories } from "@/lib/stories";
-import { SECTION_LABEL, SECTION_TONE, absUrl } from "@/lib/site";
+import { SECTION_LABEL, absUrl } from "@/lib/site";
 import { storyAbsUrl, storyHref } from "@/lib/urls";
 
 export const metadata: Metadata = {
@@ -33,14 +33,16 @@ export default function HomePage() {
   );
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-10">
+    <>
+    <NewsletterSignup variant="band" />
+    <main className="shell py-10">
       <JsonLd data={jsonLd} />
       <h1 className="sr-only">{HOME_TITLE}</h1>
       <div className="md:grid md:grid-cols-12 md:items-start md:gap-10">
         <div className="md:col-span-9">
           {featured ? (
             <section className="pb-12">
-              <Link href={storyHref(featured)} className="featured-lift block">
+              <Link href={storyHref(featured)} className="featured-lift featured-fade block">
                 <Image
                   src={featured.comic.src}
                   alt={featured.comic.alt}
@@ -57,15 +59,18 @@ export default function HomePage() {
                   <> · {featured.comic.credit || featured.source.publisher}</>
                 ) : null}
               </p>
-              <p className={`mt-6 font-sans text-[11px] uppercase tracking-widest ${SECTION_TONE[featured.section]}`}>
+              <p className="mt-5 font-sans text-[11px] uppercase tracking-widest text-leaf">
                 {SECTION_LABEL[featured.section]}
+                {featured.section === "humor" ? " · SATIRE" : ""}
               </p>
-              <h2 className="mt-2 font-serif text-3xl font-medium leading-tight tracking-tight text-neutral-900 md:text-4xl">
+              <h2 className="mt-2 font-serif text-2xl font-medium leading-tight tracking-tight text-ink md:text-3xl">
                 <Link href={storyHref(featured)} className="hover:text-leaf">
                   {featured.headline}
                 </Link>
               </h2>
-              <p className="mt-4 max-w-2xl font-sans text-[1.05rem] leading-relaxed text-neutral-600">{featured.dek || featured.recap.split(/\n\s*\n/)[0]}</p>
+              <p className="mt-3 max-w-2xl font-sans text-[1.02rem] leading-relaxed text-neutral-600">
+                {featured.dek || featured.recap.split(/\n\s*\n/)[0]}
+              </p>
               <p className="mt-3 font-sans text-sm">
                 Source:{" "}
                 <a className="text-leaf underline underline-offset-2" href={featured.source.url}>
@@ -75,7 +80,9 @@ export default function HomePage() {
             </section>
           ) : null}
           <section className="border-t border-neutral-200 pt-10">
-            <h2 className="mb-8 font-sans text-[11px] uppercase tracking-widest text-leaf">Latest</h2>
+            <div className="mb-8 flex items-baseline justify-between">
+              <h2 className="font-sans text-[11px] uppercase tracking-widest text-leaf">The Latest</h2>
+            </div>
             <StoryGrid stories={latest} />
           </section>
         </div>
@@ -85,5 +92,6 @@ export default function HomePage() {
         </aside>
       </div>
     </main>
+    </>
   );
 }

@@ -2,13 +2,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { NAV_SECTIONS, NAV_LABEL } from "@/lib/site";
+
 export function SectionNav() {
   const pathname = usePathname() || "/";
   return (
-    <nav className="border-b border-neutral-200 bg-white" aria-label="Sections">
-      <ul className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-4 gap-y-2 px-4 py-3 font-sans text-[12px]">
+    <nav className="sticky top-0 z-20 border-b border-neutral-200 bg-white/95 backdrop-blur" aria-label="Sections">
+      <ul className="shell flex flex-wrap items-center justify-center gap-x-5">
         <li>
-          <Link href="/" className={pathname === "/" ? "nav-link-active uppercase" : "nav-link uppercase text-neutral-500"}>
+          <Link href="/" className={pathname === "/" ? "nav-link-active" : "nav-link"}>
             Home
           </Link>
         </li>
@@ -17,7 +18,7 @@ export function SectionNav() {
           const active = pathname === href || pathname.startsWith(`/${section}/`);
           return (
             <li key={section}>
-              <Link href={href} className={active ? "nav-link-active uppercase" : "nav-link uppercase text-neutral-500"}>
+              <Link href={href} className={active ? "nav-link-active" : "nav-link"}>
                 {NAV_LABEL[section]}
               </Link>
             </li>

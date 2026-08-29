@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 
-type Variant = "home" | "footer" | "rail";
+type Variant = "home" | "footer" | "rail" | "band";
 
 export function NewsletterSignup({ variant = "home" }: { variant?: Variant }) {
   const [email, setEmail] = useState("");
@@ -35,6 +35,48 @@ export function NewsletterSignup({ variant = "home" }: { variant?: Variant }) {
 
   const compact = variant === "footer";
   const rail = variant === "rail";
+  const band = variant === "band";
+
+  if (band) {
+    return (
+      <div id="subscribe" className="bg-leaf text-white">
+        <div className="shell flex flex-col gap-6 py-8 md:flex-row md:items-center md:justify-between md:py-10">
+          <div className="max-w-xl">
+            <p className="font-serif text-3xl font-medium leading-tight md:text-4xl">Comics on the day’s news</p>
+            <p className="mt-2 font-sans text-sm text-white/90">One or two strips in your inbox. A recap and a source, nothing extra.</p>
+          </div>
+          {status === "success" ? (
+            <p className="font-sans text-sm" role="status">You’re on the list.</p>
+          ) : (
+            <form onSubmit={onSubmit} className="flex w-full max-w-md flex-col gap-2 sm:flex-row">
+              <label htmlFor="newsletter-email-band" className="sr-only">Email</label>
+              <input
+                id="newsletter-email-band"
+                type="email"
+                name="email"
+                autoComplete="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="Email"
+                className="w-full border-0 bg-white px-3 py-2.5 font-sans text-sm text-ink placeholder:text-sage focus:outline-none focus:ring-2 focus:ring-white"
+              />
+              <button
+                type="submit"
+                disabled={status === "loading"}
+                className="shrink-0 bg-ink px-5 py-2.5 font-sans text-[11px] font-semibold uppercase tracking-[0.14em] text-white hover:bg-forest-deep disabled:opacity-60"
+              >
+                {status === "loading" ? "…" : "Subscribe"}
+              </button>
+            </form>
+          )}
+          {status === "error" && message ? (
+            <p className="font-sans text-sm text-white" role="alert">{message}</p>
+          ) : null}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -42,8 +84,8 @@ export function NewsletterSignup({ variant = "home" }: { variant?: Variant }) {
         compact
           ? "mt-6 max-w-md border-t border-line pt-5"
           : rail
-            ? "border border-line bg-paper-card p-3"
-            : "my-8 border border-line bg-paper-card px-5 py-5 shadow-card md:px-7"
+            ? "border border-line bg-white p-3"
+            : "my-8 border border-line bg-white px-5 py-5 md:px-7"
       }
     >
       <p className={`font-sans uppercase ${rail ? "text-[10px] tracking-[0.16em] text-leaf" : "text-kicker text-leaf"}`}>
