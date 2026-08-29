@@ -3,12 +3,10 @@ import { getPublishedStories } from "@/lib/stories";
 import { storyHref } from "@/lib/urls";
 
 export function SiteBanner() {
-  const items = getPublishedStories()
-    .filter((story) => story.section !== "politics")
-    .map((story) => ({
-      href: storyHref(story),
-      headline: story.headline,
-    }));
+  const items = getPublishedStories().map((story) => ({
+    href: storyHref(story),
+    headline: story.headline,
+  }));
 
   return (
     <div>
