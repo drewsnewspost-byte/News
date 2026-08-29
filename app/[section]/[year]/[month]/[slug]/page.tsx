@@ -3,8 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ComicPost } from "@/components/ComicPost";
 import { JsonLd } from "@/components/JsonLd";
-import { comicPostLd, postMetaTitle } from "@/lib/seo";
-import { isSection } from "@/lib/site";
+import { clipMeta, comicPostLd, postMetaTitle } from "@/lib/seo";
+import { absUrl, isSection } from "@/lib/site";
 import { getAllPublishedStoryParams, getPublishedStory, getRelatedStories } from "@/lib/stories";
 import { storyAbsUrl, storyHref, storyModified, storyPublished } from "@/lib/urls";
 
@@ -23,20 +23,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: { absolute: "Not found | Drew's Comic Newsroom" }, robots: { index: false, follow: false } };
   }
   const title = postMetaTitle(story.headline);
+  const description = clipMeta(story.dek || story.recap);
   const url = storyAbsUrl(story);
   const strip = story.comic;
+  const imageUrl = strip.src.startsWith("http") ? strip.src : absUrl(strip.src);
   return {
     title: { absolute: title },
-    description: story.recap,
+    description,
     alternates: { canonical: url },
     openGraph: {
       type: "article",
-      title,
-      description: story.recap,
+      title: story.headline,
+      description,
       url,
       publishedTime: storyPublished(story),
       modifiedTime: storyModified(story),
-      images: [{ url: strip.src, alt: strip.alt, width: strip.width, height: strip.height }],
+      images: [{ url: imageUrl, alt: strip.alt, width: strip.width, height: strip.height }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: story.headline,
+      description,
+      images: [imageUrl],
     },
   };
 }

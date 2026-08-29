@@ -3,7 +3,7 @@ import { Fraunces, Source_Sans_3 } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Masthead } from "@/components/Masthead";
 import { SectionNav } from "@/components/SectionNav";
-import { HOME_TITLE } from "@/lib/seo";
+import { HOME_DESCRIPTION, HOME_TITLE } from "@/lib/seo";
 import { SITE_NAME, SITE_ORIGIN, absUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -25,8 +25,7 @@ export const metadata: Metadata = {
     default: HOME_TITLE,
     template: "%s | Drew's Comic Newsroom",
   },
-  description:
-    "Drew's Comic Newsroom publishes comics on the day's news across sports, finance, science and space, technology and AI, animals and nature, culture and curiosity, horoscope, and humor.",
+  description: HOME_DESCRIPTION,
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
@@ -34,6 +33,11 @@ export const metadata: Metadata = {
     title: HOME_TITLE,
     url: absUrl("/"),
     images: [{ url: "/og/default.png", width: 1200, height: 630, alt: SITE_NAME }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
   },
   icons: {
     icon: [

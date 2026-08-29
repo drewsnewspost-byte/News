@@ -1,5 +1,5 @@
 ---
-headline: "How more than 1,000 artifacts were found in a dumpster, then returned to Mexico"
+headline: "1,000 Mexican artifacts found in a dumpster are going home"
 comic:
   src: "/comics/dumpster-loan.png"
   caption: "Loan overdue: 55 years."
@@ -10,7 +10,7 @@ source:
   title: "How more than 1,000 artifacts were found in a dumpster, then returned to Mexico"
   publisher: "NPR Illinois"
 datePublished: "2026-08-22T16:10:00-07:00"
-dateModified: "2026-08-22T16:10:00-07:00"
+dateModified: "2026-08-29T07:05:00-07:00"
 section: culture
 status: published
 slug: dumpster-loan

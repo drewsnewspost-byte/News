@@ -1,5 +1,5 @@
 export const SITE_NAME = "Drew's Comic Newsroom";
-export const SITE_ORIGIN = (process.env.NEXT_PUBLIC_SITE_URL || "https://drewscomicnewsroom.com").replace(/\/$/, "");
+export const SITE_ORIGIN = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.drewscomicnewsroom.com").replace(/\/$/, "");
 
 /** Public desks. Culture stays on the allowlist even with no published stories. Politics is never a desk. */
 export const SECTIONS = [
@@ -108,7 +108,11 @@ export function isSign(v: string): v is SignSlug {
   return (SIGNS as readonly string[]).includes(v.toLowerCase());
 }
 
+/** Page routes keep a trailing slash. File URLs (sitemap.xml, images, llms.txt) do not. */
 export function absUrl(path: string): string {
   const p = path.startsWith("/") ? path : `/${path}`;
+  if (/\.[a-zA-Z0-9]{2,8}$/.test(p)) {
+    return `${SITE_ORIGIN}${p}`;
+  }
   return `${SITE_ORIGIN}${p.endsWith("/") ? p : `${p}/`}`;
 }

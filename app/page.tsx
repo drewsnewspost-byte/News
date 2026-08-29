@@ -4,17 +4,19 @@ import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { AdSlot } from "@/components/AdSlot";
 import { StoryGrid } from "@/components/StoryGrid";
-import { collectionLd, HOME_TITLE } from "@/lib/seo";
+import { collectionLd, HOME_DESCRIPTION, HOME_TITLE } from "@/lib/seo";
 import { getPublishedStories } from "@/lib/stories";
 import { SECTION_LABEL, absUrl } from "@/lib/site";
 import { storyAbsUrl, storyHref } from "@/lib/urls";
 
 export const metadata: Metadata = {
   title: { absolute: HOME_TITLE },
+  description: HOME_DESCRIPTION,
   alternates: { canonical: absUrl("/") },
   openGraph: {
     type: "website",
     title: HOME_TITLE,
+    description: HOME_DESCRIPTION,
     url: absUrl("/"),
   },
 };

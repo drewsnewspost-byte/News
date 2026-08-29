@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { JsonLd } from "@/components/JsonLd";
 import { StoryGrid } from "@/components/StoryGrid";
 import { getDailySign } from "@/lib/horoscopes";
-import { collectionLd, sectionMetaTitle } from "@/lib/seo";
+import { collectionLd, SECTION_DESCRIPTION, sectionMetaTitle } from "@/lib/seo";
 import { SECTION_LABEL, SECTION_TONE, SECTION_ALLOWLIST, SIGNS, SIGN_LABEL, absUrl, isSection } from "@/lib/site";
 import { getPublishedStoriesBySection } from "@/lib/stories";
 import { signAbsUrl, signHref, storyAbsUrl } from "@/lib/urls";
@@ -21,11 +21,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: { absolute: "Not found | Drew's Comic Newsroom" }, robots: { index: false } };
   }
   const title = `${SECTION_LABEL[section]} comics | Drew's Comic Newsroom`;
+  const description = SECTION_DESCRIPTION[section];
   const url = absUrl(`/${section}/`);
   return {
     title: { absolute: title },
+    description,
     alternates: { canonical: url },
-    openGraph: { type: "website", title, url },
+    openGraph: { type: "website", title, description, url },
   };
 }
 
