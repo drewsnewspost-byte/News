@@ -40,14 +40,14 @@ export default function HomePage() {
       <h1 className="sr-only">{HOME_TITLE}</h1>
       {featured ? (
         <section className="pb-12">
-          <Link href={storyHref(featured)} className="featured-lift featured-fade panel-ink block overflow-hidden">
+          <Link href={storyHref(featured)} className="featured-lift featured-fade panel-ink mx-auto block max-w-3xl overflow-hidden">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={featured.comic.src}
               alt={featured.comic.alt}
               width={featured.comic.width ?? 1200}
               height={featured.comic.height ?? 675}
-              className="h-auto w-full bg-white"
+              className="mx-auto h-auto w-full max-w-3xl bg-white"
             />
           </Link>
           <p className="mt-3 font-mono text-sm text-neutral-500">
