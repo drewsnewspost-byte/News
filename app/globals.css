@@ -198,7 +198,7 @@ a, button, .story-card-lift, .featured-lift, .nav-link, .nav-link-active {
   text-decoration: none;
 }
 .ticker-headline {
-  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-mono), "Azeret Mono", ui-monospace, monospace;
   font-size: 11px;
   font-weight: 500;
   font-style: normal;
@@ -212,12 +212,35 @@ a, button, .story-card-lift, .featured-lift, .nav-link, .nav-link-active {
   color: #2D6A4F;
 }
 .ticker-sep {
+  position: relative;
   display: inline-block;
-  width: 7px;
-  height: 7px;
+  width: 9px;
+  height: 9px;
   flex-shrink: 0;
+}
+.ticker-sep::before,
+.ticker-sep::after {
+  content: "";
+  position: absolute;
+  inset: 0;
   background: #2D6A4F;
-  border-radius: 50%;
+  border: 1.5px solid #1B4332;
+}
+.ticker-sep::before {
+  transform: rotate(45deg);
+}
+.ticker-sep::after {
+  background: #1B4332;
+  border-color: #2D6A4F;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+.ticker-cell:nth-child(even) .ticker-sep::before {
+  background: #1B4332;
+  border-color: #2D6A4F;
+}
+.ticker-cell:nth-child(even) .ticker-sep::after {
+  background: #2D6A4F;
+  border-color: #1B4332;
 }
 @keyframes ticker-scroll {
   from { transform: translate3d(0, 0, 0); }
