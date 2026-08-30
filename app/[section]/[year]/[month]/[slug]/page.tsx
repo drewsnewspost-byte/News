@@ -26,7 +26,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const description = clipMeta(story.dek || story.recap);
   const url = storyAbsUrl(story);
   const strip = story.comic;
-  const imageUrl = strip.src.startsWith("http") ? strip.src : absUrl(strip.src);
+  const src = strip?.src ?? "";
+  const imageUrl = src
+    ? src.startsWith("http")
+      ? src
+      : absUrl(src)
+    : absUrl("/og/default.png");
+  const ogImages = src
+    ? [{ url: imageUrl, alt: strip?.alt, width: strip?.width, height: strip?.height }]
+    : [{ url: imageUrl }];
   return {
     title: { absolute: title },
     description,
@@ -38,10 +46,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       url,
       publishedTime: storyPublished(story),
       modifiedTime: storyModified(story),
-      images: [{ url: imageUrl, alt: strip.alt, width: strip.width, height: strip.height }],
+      images: ogImages,
     },
     twitter: {
-      card: "summary_large_image",
+      card: src ? "summary_large_image" : "summary",
       title: story.headline,
       description,
       images: [imageUrl],

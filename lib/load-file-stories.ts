@@ -174,13 +174,17 @@ function parseStory(raw: Record<string, unknown>, file: string): Story {
     section,
     slug: asString(raw.slug, "slug", file),
     headline,
-    comic: asComic(raw.comic ?? raw.hero, file, headline),
     source: asSource(raw.source, file, headline),
     recap,
     datePublished,
     dateModified,
     status,
   };
+  const hasComicObj =
+    (raw.comic && typeof raw.comic === "object") || (raw.hero && typeof raw.hero === "object");
+  if (!(section === "horoscope" && !hasComicObj)) {
+    post.comic = asComic(raw.comic ?? raw.hero, file, headline);
+  }
   const dek = asOptionalString(raw.dek);
   if (dek) post.dek = dek;
   return adaptComicPost(post);

@@ -110,13 +110,14 @@ export function newsArticleLd(opts: {
 }
 
 export function comicPostLd(post: ComicPost, url: string) {
+  const image = post.comic?.src ? post.comic : "/og/default.png";
   return newsArticleLd({
     headline: post.headline,
     description: clipMeta(post.dek || post.recap),
     articleBody: post.recap,
     recap: post.recap,
     url,
-    image: post.comic,
+    image,
     datePublished: post.datePublished,
     dateModified: post.dateModified,
     section: post.section,

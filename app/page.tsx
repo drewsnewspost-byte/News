@@ -23,9 +23,10 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   const stories = getPublishedStories();
-  const featured =
-    stories.find((s) => /\\.(png|jpe?g|webp)$/i.test(s.comic.src) || s.comic.src.includes("/comics/")) ??
-    stories[0];
+  const featured = stories.find((s) => {
+    const src = s.comic?.src ?? "";
+    return Boolean(src) && (/\.(png|jpe?g|webp)$/i.test(src) || src.includes("/comics/"));
+  });
   const latest = stories.filter((s) => s.slug !== featured?.slug);
   const jsonLd = collectionLd(
     HOME_TITLE,
