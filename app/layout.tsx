@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Azeret_Mono, Fraunces } from "next/font/google";
+import { Azeret_Mono } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Masthead } from "@/components/Masthead";
 import { SectionNav } from "@/components/SectionNav";
@@ -9,11 +9,16 @@ import { HOME_DESCRIPTION, HOME_TITLE } from "@/lib/seo";
 import { SITE_NAME, SITE_ORIGIN, absUrl } from "@/lib/site";
 import "./globals.css";
 
-const serif = Fraunces({
-  subsets: ["latin"],
+// Fontshare Boska: Reckless-like high-contrast display serif.
+// Editorial New is not on Fontshare (Pangram Pangram, paid); Boska is the licensed substitute.
+const serif = localFont({
+  src: [
+    { path: "./fonts/boska/Boska-Medium.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/boska/Boska-Bold.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/boska/Boska-Black.woff2", weight: "800", style: "normal" },
+  ],
   variable: "--font-serif",
   display: "swap",
-  weight: ["600", "700", "800"],
 });
 
 const sans = localFont({

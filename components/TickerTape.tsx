@@ -28,7 +28,7 @@ function Unit({ items, hidden }: { items: TickerItem[]; hidden?: boolean }) {
           aria-label={item.alt}
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={item.src} alt="" width={72} height={36} className="ticker-thumb" />
+          <img src={item.src} alt="" width={260} height={90} className="ticker-thumb" />
         </Link>
       ))}
     </div>

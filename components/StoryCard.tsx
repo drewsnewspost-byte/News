@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { SECTION_LABEL } from "@/lib/site";
 import type { Story } from "@/lib/types";
@@ -16,12 +15,12 @@ export function StoryCard({ story, compact = false }: { story: Story; compact?: 
       {thumb ? (
       <Link href={href} className="block">
         <div className="overflow-hidden bg-white">
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={thumb}
             alt={story.comic?.alt ?? story.headline}
             width={width}
             height={height}
-            sizes={compact ? "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" : "(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 560px"}
             className="h-auto w-full object-cover"
           />
         </div>

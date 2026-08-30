@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { SECTION_LABEL } from "@/lib/site";
 import type { ComicPost as ComicPostType } from "@/lib/types";
 
@@ -12,13 +11,12 @@ export function ComicPost({ post }: { post: ComicPostType }) {
     <article>
       {hasStrip && strip ? (
       <figure>
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src={strip.src}
           alt={strip.alt}
           width={strip.width ?? 1200}
           height={strip.height ?? 675}
-          sizes="(max-width: 1024px) 100vw, 800px"
-          priority
           className="h-auto w-full bg-white"
         />
         <figcaption className="mt-2 font-mono text-sm text-neutral-500">

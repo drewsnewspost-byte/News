@@ -2,9 +2,30 @@ import { TickerTape } from "@/components/TickerTape";
 import { getPublishedStories } from "@/lib/stories";
 import { storyHref } from "@/lib/urls";
 
+/** Today's full-color strips only — keep the ticker off the grayscale archive. */
+const COLOR_TICKER_SLUGS = [
+  "claude-automated-alignment",
+  "coyote-vs-acme-tomatometer",
+  "etf-basket-that-trades",
+  "quantum-gravity-two-maps",
+  "sara-bareilles-good-grief",
+  "tigers-walk-off-dodgers",
+  "tsitsipas-security-quotes",
+  "voynich-manuscript-unread",
+] as const;
+
+const COLOR_TICKER_SET = new Set<string>(COLOR_TICKER_SLUGS);
+
+function isColorTickerStory(story: { slug: string; comic?: { src?: string } }) {
+  const src = story.comic?.src ?? "";
+  if (!/\.(png|jpe?g|webp|gif)$/i.test(src)) return false;
+  if (COLOR_TICKER_SET.has(story.slug)) return true;
+  return COLOR_TICKER_SLUGS.some((slug) => src.includes(slug));
+}
+
 export function SiteBanner() {
   const items = getPublishedStories()
-    .filter((story) => /\.(png|jpe?g|webp|gif)$/i.test(story.comic.src))
+    .filter(isColorTickerStory)
     .map((story) => ({
       href: storyHref(story),
       src: story.comic.src,

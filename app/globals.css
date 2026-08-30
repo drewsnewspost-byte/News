@@ -197,10 +197,10 @@ a, button, .story-card-lift, .featured-lift, .nav-link, .nav-link-active {
 }
 .ticker-thumb {
   display: block;
-  width: 64px;
-  height: 32px;
-  object-fit: cover;
-  object-position: left center;
+  width: 260px;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
   border: 2px solid #1B4332;
   background: #fff;
 }

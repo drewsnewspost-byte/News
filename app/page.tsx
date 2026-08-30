@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { JsonLd } from "@/components/JsonLd";
 import { AdSlot } from "@/components/AdSlot";
@@ -42,13 +41,12 @@ export default function HomePage() {
       {featured ? (
         <section className="pb-12">
           <Link href={storyHref(featured)} className="featured-lift featured-fade panel-ink block overflow-hidden">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src={featured.comic.src}
               alt={featured.comic.alt}
               width={featured.comic.width ?? 1200}
               height={featured.comic.height ?? 675}
-              sizes="(max-width: 1024px) 100vw, 1200px"
-              priority
               className="h-auto w-full bg-white"
             />
           </Link>
