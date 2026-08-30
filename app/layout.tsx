@@ -11,7 +11,7 @@ import "./globals.css";
 
 // Fontspace Atop: locked headline/display face. Self-hosted. CSS family Atop.
 // Do not use Boska, Fraunces, Georgia, Times, Playfair, or Instrument Serif.
-const serif = localFont({
+const Atop = localFont({
   src: [
     { path: "./fonts/atop/Atop-R99O3.woff2", weight: "400", style: "normal" },
     { path: "./fonts/atop/Atop-R99O3.woff2", weight: "600", style: "normal" },
@@ -89,7 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           `}
         </Script>
       </head>
-      <body className={`${serif.variable} ${sans.variable} ${mono.variable} flex min-h-screen flex-col bg-white font-sans text-neutral-900`}>
+      <body className={`${Atop.variable} ${sans.variable} ${mono.variable} flex min-h-screen flex-col bg-white font-sans text-neutral-900`}>
         <Masthead />
         <SectionNav />
         <SiteBanner />
