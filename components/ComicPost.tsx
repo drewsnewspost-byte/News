@@ -18,7 +18,7 @@ export function ComicPost({ post }: { post: ComicPostType }) {
           priority
           className="h-auto w-full bg-white"
         />
-        <figcaption className="mt-2 font-sans text-sm text-neutral-500">
+        <figcaption className="mt-2 font-mono text-sm text-neutral-500">
           {caption ? <span>{caption}</span> : null}
           {caption && credit ? <span> · </span> : null}
           {credit ? <span>{credit}</span> : null}
@@ -28,7 +28,7 @@ export function ComicPost({ post }: { post: ComicPostType }) {
         {SECTION_LABEL[post.section]}
         {post.section === "humor" ? " · SATIRE" : ""}
       </p>
-      <h1 className="mt-2 font-serif text-3xl leading-tight text-neutral-900 md:text-4xl">{post.headline}</h1>
+      <h1 className="mt-2 font-serif text-3xl font-bold leading-tight text-neutral-900 md:text-4xl">{post.headline}</h1>
       <div className="mt-5 space-y-4">
         {grafs.map((graf) => (
           <p key={graf.slice(0, 48)} className="font-sans text-base leading-7 text-neutral-800">

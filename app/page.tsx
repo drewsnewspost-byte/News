@@ -53,7 +53,7 @@ export default function HomePage() {
                   className="h-auto w-full bg-white"
                 />
               </Link>
-              <p className="mt-2 font-sans text-sm text-neutral-500">
+              <p className="mt-2 font-mono text-sm text-neutral-500">
                 {featured.comic.caption || featured.dek}
                 {featured.comic.credit || featured.source.publisher ? (
                   <> · {featured.comic.credit || featured.source.publisher}</>
@@ -63,7 +63,7 @@ export default function HomePage() {
                 {SECTION_LABEL[featured.section]}
                 {featured.section === "humor" ? " · SATIRE" : ""}
               </p>
-              <h2 className="mt-2 font-serif text-2xl font-medium leading-tight tracking-tight text-ink md:text-3xl">
+              <h2 className="mt-2 font-serif text-2xl font-semibold leading-tight tracking-tight text-ink md:text-3xl">
                 <Link href={storyHref(featured)} className="hover:text-leaf">
                   {featured.headline}
                 </Link>

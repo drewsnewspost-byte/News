@@ -68,9 +68,9 @@ export default async function SignPage({ params }: Props) {
       />
       <article>
         <p className="kicker">Horoscope</p>
-        <h1 className="mt-3 font-serif text-4xl leading-tight text-ink">{daily.headline}</h1>
+        <h1 className="mt-3 font-serif text-4xl font-bold leading-tight text-ink">{daily.headline}</h1>
         <p className="mt-4 font-sans text-lg leading-relaxed text-muted">{daily.dek}</p>
-        <p className="mt-3 font-sans text-sm text-muted">
+        <p className="mt-3 font-mono text-sm text-muted">
           {daily.byline} · {daily.desk} desk
         </p>
         <div className="mt-2">

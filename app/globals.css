@@ -57,6 +57,7 @@ body { -webkit-font-smoothing: antialiased; }
   position: relative;
   overflow: hidden;
   isolation: isolate;
+  padding: 0.18rem 0.1rem;
 }
 .topic-nav .nav-link,
 .topic-nav .nav-link-active {
@@ -65,7 +66,7 @@ body { -webkit-font-smoothing: antialiased; }
   max-width: 100%;
   box-sizing: border-box;
   position: static;
-  padding: 0.55rem 0.2rem 0.4rem;
+  padding: 0.4rem 0.15rem;
   font-size: clamp(8px, 1.5vw, 11px);
   letter-spacing: 0.06em;
   line-height: 1.2;
@@ -75,19 +76,18 @@ body { -webkit-font-smoothing: antialiased; }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-bottom: 2px solid transparent;
+  border-radius: 999px;
+  border-bottom: none;
+  transition: color 160ms ease, background-color 160ms ease;
 }
 .nav-link {
   color: #2D6A4F;
-  transition: color 160ms ease, border-color 160ms ease;
+  background: transparent;
 }
-.nav-link:hover {
-  color: #2D6A4F;
-  border-bottom-color: #2D6A4F;
-}
+.nav-link:hover,
 .nav-link-active {
-  color: #1B4332;
-  border-bottom-color: #1B4332;
+  color: #ffffff;
+  background: #2D6A4F;
 }
 
 

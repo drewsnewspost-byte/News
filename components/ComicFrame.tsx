@@ -16,7 +16,7 @@ export function ComicFrame({
         <img src={src} alt={alt} className="w-full object-cover" />
       </div>
       {(caption || credit) ? (
-        <figcaption className="mt-2 font-sans text-sm text-neutral-500">
+        <figcaption className="mt-2 font-mono text-sm text-neutral-500">
           {caption}
           {caption && credit ? " · " : ""}
           {credit}

@@ -25,7 +25,8 @@ const config: Config = {
       },
       fontFamily: {
         serif: ["var(--font-serif)", "Fraunces", "Georgia", "serif"],
-        sans: ["var(--font-sans)", "Source Sans 3", "Helvetica Neue", "Arial", "sans-serif"],
+        sans: ["var(--font-sans)", "Satoshi", "Helvetica Neue", "Arial", "sans-serif"],
+        mono: ["var(--font-mono)", "Azeret Mono", "ui-monospace", "monospace"],
       },
       fontSize: {
         kicker: ["0.6875rem", { lineHeight: "1", letterSpacing: "0.22em" }],

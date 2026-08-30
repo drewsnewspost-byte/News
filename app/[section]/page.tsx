@@ -54,7 +54,7 @@ export default async function SectionPage({ params }: Props) {
         {SECTION_LABEL[raw]}
         {raw === "humor" ? " · SATIRE" : ""}
       </p>
-      <h1 className="mt-3 font-serif text-4xl font-medium tracking-tight text-ink">{SECTION_LABEL[raw]}</h1>
+      <h1 className="mt-3 font-serif text-4xl font-bold tracking-tight text-ink">{SECTION_LABEL[raw]}</h1>
       {raw === "horoscope" ? (
         <section className="mb-10 mt-6">
           <h2 className="mb-4 font-sans text-kicker uppercase text-muted">

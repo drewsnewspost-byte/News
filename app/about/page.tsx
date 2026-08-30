@@ -37,7 +37,7 @@ export default function AboutPage() {
           />
         </div>
         <div className="mt-8 min-w-0 max-w-2xl font-sans text-[1.05rem] leading-relaxed text-neutral-700 md:col-span-8 md:mt-0">
-          <h1 className="font-serif text-3xl font-medium tracking-tight text-ink md:text-4xl">
+          <h1 className="font-serif text-3xl font-bold tracking-tight text-ink md:text-4xl">
             About Drew&apos;s Comic Newsroom
           </h1>
           <p className="mt-6">

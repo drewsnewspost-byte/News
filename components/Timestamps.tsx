@@ -14,7 +14,7 @@ export function Timestamps({
   const published = publishedAt ?? datePublished ?? "";
   const updated = updatedAt ?? dateModified ?? published;
   return (
-    <p className="text-sm text-gold">
+    <p className="font-mono text-sm text-gold">
       Published <time dateTime={published}>{formatDeskDate(published)}</time>
       {" "}
       · Updated <time dateTime={updated}>{formatDeskDate(updated)}</time>

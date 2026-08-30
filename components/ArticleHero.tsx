@@ -10,11 +10,11 @@ export function ArticleHero({ story }: { story: Story }) {
         {SECTION_LABEL[story.section]}
         {story.section === "humor" ? " · SATIRE" : ""}
       </p>
-      <h1 className="mt-4 font-serif text-4xl font-medium leading-[1.08] tracking-tight text-ink md:text-5xl">
+      <h1 className="mt-4 font-serif text-4xl font-bold leading-[1.08] tracking-tight text-ink md:text-5xl">
         {story.headline}
       </h1>
       <p className="mt-4 font-sans text-lg leading-relaxed text-muted">{story.dek}</p>
-      <p className="mt-3 font-sans text-sm text-muted">
+      <p className="mt-3 font-mono text-sm text-muted">
         {story.desk && story.byline.toLowerCase().includes(story.desk.toLowerCase())
           ? story.byline
           : [story.byline, story.desk].filter(Boolean).join(" · ")}

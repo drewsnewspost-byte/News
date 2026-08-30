@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Fraunces, Source_Sans_3 } from "next/font/google";
+import localFont from "next/font/local";
+import { Azeret_Mono, Fraunces } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Masthead } from "@/components/Masthead";
 import { SectionNav } from "@/components/SectionNav";
@@ -12,12 +13,24 @@ const serif = Fraunces({
   subsets: ["latin"],
   variable: "--font-serif",
   display: "swap",
+  weight: ["600", "700", "800"],
 });
 
-const sans = Source_Sans_3({
-  subsets: ["latin"],
+const sans = localFont({
+  src: [
+    { path: "./fonts/satoshi/Satoshi-Regular.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/satoshi/Satoshi-Medium.woff2", weight: "500", style: "normal" },
+    { path: "./fonts/satoshi/Satoshi-Bold.woff2", weight: "700", style: "normal" },
+  ],
   variable: "--font-sans",
   display: "swap",
+});
+
+const mono = Azeret_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap",
+  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {
@@ -53,7 +66,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${serif.variable} ${sans.variable} flex min-h-screen flex-col bg-white font-sans text-neutral-900`}>
+      <body className={`${serif.variable} ${sans.variable} ${mono.variable} flex min-h-screen flex-col bg-white font-sans text-neutral-900`}>
         <Masthead />
         <SectionNav />
         <SiteBanner />
