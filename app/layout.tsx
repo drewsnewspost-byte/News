@@ -66,7 +66,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${serif.variable} ${sans.variable} ${mono.variable} flex min-h-screen flex-col bg-white font-sans text-neutral-900`}>
+      <body className={`${serif.variable} ${sans.variable} ${mono.variable} flex min-h-screen flex-col bg-paper font-sans text-neutral-900`}>
         <Masthead />
         <SectionNav />
         <SiteBanner />

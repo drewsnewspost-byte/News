@@ -33,7 +33,7 @@ export default function AboutPage() {
             width={1131}
             height={1391}
             priority
-            className="mx-auto h-auto w-full max-w-sm border-2 border-leaf bg-white md:mx-0"
+            className="panel-ink mx-auto h-auto w-full max-w-sm bg-white md:mx-0"
           />
         </div>
         <div className="mt-8 min-w-0 max-w-2xl font-sans text-[1.05rem] leading-relaxed text-neutral-700 md:col-span-8 md:mt-0">

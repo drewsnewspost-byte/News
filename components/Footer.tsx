@@ -3,11 +3,11 @@ import { NAV_SECTIONS, NAV_LABEL, SITE_NAME } from "@/lib/site";
 
 export function Footer() {
   return (
-    <footer className="mt-16 border-t-2 border-leaf bg-white">
+    <footer className="mt-16 border-t-[3px] border-forest bg-paper">
       <div className="py-10 font-sans text-sm text-neutral-500">
         <div className="shell">
           <p className="font-sans text-xl font-bold tracking-tight text-ink">
-            Drew&apos;s <span className="text-leaf">Comic</span> Newsroom
+            Drew&apos;s <span className="wordmark-comic">Comic</span> Newsroom
           </p>
           <p className="mt-2">Comics on the day’s news. One strip, a short recap, a source.</p>
         </div>

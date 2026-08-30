@@ -7,7 +7,7 @@ export function ComicPost({ post }: { post: ComicPostType }) {
   const caption = post.comic.caption || post.dek;
   const grafs = post.recap.split(/\n\s*\n/).map((g) => g.trim()).filter(Boolean);
   return (
-    <article className="bg-white">
+    <article>
       <figure>
         <Image
           src={post.comic.src}

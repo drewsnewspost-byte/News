@@ -64,7 +64,7 @@ export default async function SectionPage({ params }: Props) {
             {SIGNS.map((sign) => {
               const daily = getDailySign(sign);
               return (
-                <li key={sign} className="border border-line bg-white p-4">
+                <li key={sign} className="story-card-lift p-4">
                   <Link href={signHref(sign)} className="font-serif text-xl text-forest hover:underline">
                     {SIGN_LABEL[sign]}
                   </Link>
