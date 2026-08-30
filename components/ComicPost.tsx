@@ -3,17 +3,20 @@ import { SECTION_LABEL } from "@/lib/site";
 import type { ComicPost as ComicPostType } from "@/lib/types";
 
 export function ComicPost({ post }: { post: ComicPostType }) {
-  const credit = post.comic.credit || post.source.publisher || post.source.title;
-  const caption = post.comic.caption || post.dek;
+  const strip = post.comic;
+  const hasStrip = Boolean(strip?.src);
+  const credit = strip?.credit || post.source.publisher || post.source.title;
+  const caption = strip?.caption || post.dek;
   const grafs = post.recap.split(/\n\s*\n/).map((g) => g.trim()).filter(Boolean);
   return (
     <article>
+      {hasStrip && strip ? (
       <figure>
         <Image
-          src={post.comic.src}
-          alt={post.comic.alt}
-          width={post.comic.width ?? 1200}
-          height={post.comic.height ?? 675}
+          src={strip.src}
+          alt={strip.alt}
+          width={strip.width ?? 1200}
+          height={strip.height ?? 675}
           sizes="(max-width: 1024px) 100vw, 800px"
           priority
           className="h-auto w-full bg-white"
@@ -24,6 +27,7 @@ export function ComicPost({ post }: { post: ComicPostType }) {
           {credit ? <span>{credit}</span> : null}
         </figcaption>
       </figure>
+      ) : null}
       <p className="mt-8 font-sans text-xs uppercase tracking-widest text-leaf">
         {SECTION_LABEL[post.section]}
         {post.section === "humor" ? " · SATIRE" : ""}

@@ -29,7 +29,7 @@ export type ComicPost = {
   slug: string;
   headline: string;
   dek?: string;
-  comic: ComicImage;
+  comic?: ComicImage;
   source: ComicSource;
   recap: string;
   datePublished: string;
@@ -71,11 +71,12 @@ export type DailySign = {
 
 export function adaptComicPost(post: ComicPost): Story {
   const dek = post.dek ?? post.recap;
+  const comic = post.comic ?? { src: "", alt: post.headline };
   return {
     ...post,
     dek,
-    comic: { ...post.comic, caption: post.comic.caption ?? dek },
-    hero: { src: post.comic.src, alt: post.comic.alt },
+    comic: { ...comic, caption: comic.caption ?? dek },
+    hero: { src: comic.src, alt: comic.alt },
     body: [post.recap],
     lede: post.recap,
     byline: post.source.publisher ?? post.source.title,
