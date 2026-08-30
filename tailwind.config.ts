@@ -24,7 +24,7 @@ const config: Config = {
         "sage-pale": "#FFFFFF",
       },
       fontFamily: {
-        serif: ["var(--font-serif)", "Boska", "serif"],
+        serif: ["var(--font-serif)", "Boska", "ui-serif", "serif"],
         sans: ["var(--font-sans)", "Satoshi", "Helvetica Neue", "Arial", "sans-serif"],
         mono: ["var(--font-mono)", "Azeret Mono", "ui-monospace", "monospace"],
       },

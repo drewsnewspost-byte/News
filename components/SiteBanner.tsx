@@ -28,7 +28,7 @@ export function SiteBanner() {
     .filter(isColorTickerStory)
     .map((story) => ({
       href: storyHref(story),
-      src: story.comic.src,
+      src: `/comics/${story.slug}.png`,
       alt: story.comic.alt || story.headline,
     }));
 

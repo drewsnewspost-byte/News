@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { Azeret_Mono } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Masthead } from "@/components/Masthead";
 import { SectionNav } from "@/components/SectionNav";
@@ -31,11 +30,13 @@ const sans = localFont({
   display: "swap",
 });
 
-const mono = Azeret_Mono({
-  subsets: ["latin"],
+const mono = localFont({
+  src: [
+    { path: "./fonts/azeret-mono/AzeretMono-Regular.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/azeret-mono/AzeretMono-Medium.woff2", weight: "500", style: "normal" },
+  ],
   variable: "--font-mono",
   display: "swap",
-  weight: ["400", "500"],
 });
 
 export const metadata: Metadata = {

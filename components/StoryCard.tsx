@@ -21,7 +21,7 @@ export function StoryCard({ story, compact = false }: { story: Story; compact?: 
             alt={story.comic?.alt ?? story.headline}
             width={width}
             height={height}
-            className="h-auto w-full object-cover"
+            className="h-auto w-full bg-white object-contain"
           />
         </div>
       </Link>
