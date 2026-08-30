@@ -173,7 +173,7 @@ a, button, .story-card-lift, .featured-lift, .nav-link, .nav-link-active {
   position: relative;
   z-index: 0;
   overflow: hidden;
-  background: #F3EDE0;
+  background: #FFFFFF;
   border-top: 2px dashed #1B4332;
   border-bottom: 2px dashed #1B4332;
 }

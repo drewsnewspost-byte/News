@@ -19,7 +19,7 @@ export function SiteBanner() {
         </p>
       </div>
       <TickerTape items={items} />
-      <div className="flex items-center justify-center gap-2 border-b-[3px] border-forest bg-paper py-2">
+      <div className="flex items-center justify-center gap-2 border-b-[3px] border-forest bg-white py-2">
         <a
           href="https://x.com/DrewsComicNews"
           target="_blank"

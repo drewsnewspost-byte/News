@@ -6,7 +6,7 @@ import { NAV_SECTIONS, NAV_LABEL } from "@/lib/site";
 export function SectionNav() {
   const pathname = usePathname() || "/";
   return (
-    <nav className="sticky top-0 z-20 overflow-hidden border-b-[3px] border-forest bg-paper/95 backdrop-blur" aria-label="Sections">
+    <nav className="sticky top-0 z-20 overflow-hidden border-b-[3px] border-forest bg-white backdrop-blur" aria-label="Sections">
       <ul className="topic-nav">
         <li>
           <Link href="/" className={pathname === "/" ? "nav-link-active" : "nav-link"}>

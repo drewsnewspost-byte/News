@@ -7,7 +7,7 @@ export function Masthead() {
   const pathname = usePathname() || "/";
   const aboutActive = pathname === "/about" || pathname.startsWith("/about/");
   return (
-    <header className="border-b-[3px] border-forest bg-paper">
+    <header className="border-b-[3px] border-forest bg-white">
       <div className="shell flex items-center py-4">
         <Link href="/" className="flex items-center gap-3" aria-label={SITE_NAME}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
