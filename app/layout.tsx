@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Script from "next/script";
 import { Footer } from "@/components/Footer";
 import { Masthead } from "@/components/Masthead";
 import { SectionNav } from "@/components/SectionNav";
@@ -72,6 +73,20 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-9HM59GHFVJ"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-9HM59GHFVJ');
+          `}
+        </Script>
+      </head>
       <body className={`${serif.variable} ${sans.variable} ${mono.variable} flex min-h-screen flex-col bg-white font-sans text-neutral-900`}>
         <Masthead />
         <SectionNav />
