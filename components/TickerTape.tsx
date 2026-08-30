@@ -4,8 +4,7 @@ import Link from "next/link";
 
 export type TickerItem = {
   href: string;
-  src: string;
-  alt: string;
+  headline: string;
 };
 
 function padUnit(items: TickerItem[]): TickerItem[] {
@@ -25,10 +24,9 @@ function Unit({ items, hidden }: { items: TickerItem[]; hidden?: boolean }) {
           href={item.href}
           className="ticker-cell"
           tabIndex={hidden ? -1 : undefined}
-          aria-label={item.alt}
         >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={item.src} alt="" width={260} height={90} className="ticker-thumb" />
+          <span className="ticker-headline">{item.headline}</span>
+          <span className="ticker-sep" aria-hidden="true" />
         </Link>
       ))}
     </div>
@@ -40,7 +38,7 @@ export function TickerTape({ items }: { items: TickerItem[] }) {
   const unit = padUnit(items);
   const duration = Math.max(28, unit.length * 2.4);
   return (
-    <div className="ticker" role="region" aria-label="Latest comics">
+    <div className="ticker" role="region" aria-label="Latest headlines">
       <div className="ticker-track" style={{ animationDuration: `${duration}s` }}>
         <Unit items={unit} />
         <Unit items={unit} hidden />

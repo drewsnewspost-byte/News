@@ -2,7 +2,7 @@ import { TickerTape } from "@/components/TickerTape";
 import { getPublishedStories } from "@/lib/stories";
 import { storyHref } from "@/lib/urls";
 
-/** Today's full-color strips only — keep the ticker off the older archive. */
+/** Today's eight news stories only — skip horoscope and the older archive. */
 const COLOR_TICKER_SLUGS = [
   "claude-automated-alignment",
   "coyote-vs-acme-tomatometer",
@@ -16,20 +16,12 @@ const COLOR_TICKER_SLUGS = [
 
 const COLOR_TICKER_SET = new Set<string>(COLOR_TICKER_SLUGS);
 
-function isColorTickerStory(story: { slug: string; comic?: { src?: string } }) {
-  const src = story.comic?.src ?? "";
-  if (!/\.(png|jpe?g|webp|gif)$/i.test(src)) return false;
-  if (COLOR_TICKER_SET.has(story.slug)) return true;
-  return COLOR_TICKER_SLUGS.some((slug) => src.includes(slug));
-}
-
 export function SiteBanner() {
   const items = getPublishedStories()
-    .filter(isColorTickerStory)
+    .filter((story) => COLOR_TICKER_SET.has(story.slug))
     .map((story) => ({
       href: storyHref(story),
-      src: `/comics/${story.slug}.png`,
-      alt: story.comic.alt || story.headline,
+      headline: story.headline,
     }));
 
   return (
