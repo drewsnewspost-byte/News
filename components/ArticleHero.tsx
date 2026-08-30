@@ -28,7 +28,7 @@ export function ArticleHero({ story }: { story: Story }) {
         />
       </div>
       {!story.comic ? (
-        <div className="mt-6 overflow-hidden border border-line bg-mint">
+        <div className="mt-6 overflow-hidden border border-line bg-white">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={story.hero.src}
