@@ -9,16 +9,18 @@ import { HOME_DESCRIPTION, HOME_TITLE } from "@/lib/seo";
 import { SITE_NAME, SITE_ORIGIN, absUrl } from "@/lib/site";
 import "./globals.css";
 
-// Fontshare Boska: Reckless-like high-contrast display serif.
-// Editorial New is not on Fontshare (Pangram Pangram, paid); Boska is the licensed substitute.
+// Fontspace Atop: locked headline/display face. Self-hosted. CSS family Atop.
+// Do not use Boska, Fraunces, Georgia, Times, Playfair, or Instrument Serif.
 const serif = localFont({
   src: [
-    { path: "./fonts/boska/Boska-Medium.woff2", weight: "600", style: "normal" },
-    { path: "./fonts/boska/Boska-Bold.woff2", weight: "700", style: "normal" },
-    { path: "./fonts/boska/Boska-Black.woff2", weight: "800", style: "normal" },
+    { path: "./fonts/atop/Atop-R99O3.woff2", weight: "400", style: "normal" },
+    { path: "./fonts/atop/Atop-R99O3.woff2", weight: "600", style: "normal" },
+    { path: "./fonts/atop/Atop-R99O3.woff2", weight: "700", style: "normal" },
+    { path: "./fonts/atop/Atop-R99O3.woff2", weight: "800", style: "normal" },
   ],
   variable: "--font-serif",
   display: "swap",
+  adjustFontFallback: false,
 });
 
 const sans = localFont({

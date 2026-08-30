@@ -12,7 +12,7 @@ export function Masthead() {
         <Link href="/" className="flex items-center gap-3" aria-label={SITE_NAME}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/favicon-32x32.png?v=2" alt="" width={36} height={36} className="h-9 w-9" />
-          <span className="font-sans text-xl font-bold tracking-tight md:text-2xl">
+          <span className="font-serif text-xl font-bold tracking-tight md:text-2xl">
             <span className="text-ink">Drew&apos;s </span>
             <span className="wordmark-comic">Comic</span>
             <span className="text-ink"> Newsroom</span>

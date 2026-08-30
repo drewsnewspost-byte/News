@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="mt-16 border-t-[3px] border-forest bg-white">
       <div className="py-10 font-sans text-sm text-neutral-500">
         <div className="shell">
-          <p className="font-sans text-xl font-bold tracking-tight text-ink">
+          <p className="font-serif text-xl font-bold tracking-tight text-ink">
             Drew&apos;s <span className="wordmark-comic">Comic</span> Newsroom
           </p>
           <p className="mt-2">Comics on the day’s news. One strip, a short recap, a source.</p>
