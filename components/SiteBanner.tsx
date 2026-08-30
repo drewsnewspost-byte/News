@@ -2,7 +2,7 @@ import { TickerTape } from "@/components/TickerTape";
 import { getPublishedStories } from "@/lib/stories";
 import { storyHref } from "@/lib/urls";
 
-/** Today's full-color strips only — keep the ticker off the grayscale archive. */
+/** Today's full-color strips only — keep the ticker off the older archive. */
 const COLOR_TICKER_SLUGS = [
   "claude-automated-alignment",
   "coyote-vs-acme-tomatometer",
