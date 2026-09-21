@@ -1,19 +1,19 @@
 ---
-headline: "Resident Evil (2026) opens at 96% Tomatometer, 90% Popcornmeter"
-dek: "Rotten Tomatoes / RT editorial: Zach Cregger reboot; 96% from 142 reviews; 90% audience from 500+ verified; consensus — brisk, funny, true to the games’ spirit. Wide Sept 18."
+headline: "Resident Evil (2026) sits at 95% Tomatometer / 91% Popcornmeter on RT"
+dek: "Rotten Tomatoes: Zach Cregger reboot — 95% Tomatometer (208 reviews), 91% audience (2,500+ verified); critic consensus praises sleek runtime, Abrams’ comic timing, propulsive game-feel scares."
 comic:
   src: "/comics/resident-evil-2026-tomatometer.png"
-  caption: "Four panels: cartoon survival night, 96% Tomatometer tomato, 90% Popcornmeter, critic-consensus card. Cartoon only — no likenesses."
+  caption: "Four panels: cartoon courier sprinting through outbreak night, theater crowd jumping, Tomatometer 95% splat, Popcornmeter 91% bucket."
   credit: "Comic: Topics / Drew’s Comic Newsroom. Source: Rotten Tomatoes."
-  alt: "Four-panel full-color movie comic. Panel 1: cartoon courier in a spooky green night. Panel 2: large 96% Tomatometer badge. Panel 3: 90% Popcornmeter badge. Panel 4: consensus card reading brisk, funny, true to games."
-  width: 1280
-  height: 720
+  alt: "Four-panel full-color movies comic. Panel 1: cartoon medical courier character running through neon-lit chaos (no real likeness). Panel 2: movie audience leaping from seats. Panel 3: giant red Tomatometer dial at 95 percent. Panel 4: popcorn bucket scoreboard reading 91 percent audience."
+  width: 1200
+  height: 675
 source:
   url: "https://www.rottentomatoes.com/m/resident_evil_2026"
-  title: "Resident Evil (2026)"
+  title: "Resident Evil (2026) | Rotten Tomatoes"
   publisher: "Rotten Tomatoes"
-datePublished: "2026-09-18T07:00:00-07:00"
-dateModified: "2026-09-18T07:00:00-07:00"
+datePublished: "2026-09-21T07:00:00-07:00"
+dateModified: "2026-09-21T07:00:00-07:00"
 section: movies
 status: published
 slug: resident-evil-2026-tomatometer
@@ -21,16 +21,16 @@ slug: resident-evil-2026-tomatometer
 
 What happened
 
-Rotten Tomatoes lists Zach Cregger’s Resident Evil (2026) at 96% on the Tomatometer from 142 critic reviews and 90% on the Popcornmeter from 500+ verified audience ratings as the film opens wide Sept. 18, 2026. The page synopsis follows Bryan (a medical courier) through one collapsing night of survival-horror chaos; the rating is R for strong bloody violence, language, and gore, runtime about 1h 30m, from Columbia / Constantin / PlayStation Productions. That is the Movie Reviews filing: live scores, opening day, and the critics’ temperature check.
+The Rotten Tomatoes page for Resident Evil (2026) is the Movie Reviews filing: as of this morning’s pull, the Zach Cregger reboot holds a 95% Tomatometer from 208 critic reviews and a 91% Popcornmeter from 2,500+ verified audience ratings. The listed critic consensus says the film packs unforgettable scares into a sleek runtime while Austin Abrams’ crack comedic timing provides crucial levity, calling Cregger’s Resident Evil a propulsive tribute to the pleasure and terror of playing a truly spooky video game.
 
-RT’s first-reviews roundup (Christopher Campbell, Sept. 16) summarizes the early critical line as pure escapist fun — briskly paced, surprisingly funny, and true to the spirit of the games — with multiple writers calling it the best Resident Evil movie and among the stronger live-action game adaptations. The Tomatometer page is the scoreboard; the editorial package is the consensus color. Neon green and tomato red, white gutters, cartoon characters only — never likenesses of living actors. Source URL: https://www.rottentomatoes.com/m/resident_evil_2026.
+RT lists the film as R, about 1h 30m, Horror/Action, wide theatrical release September 18, 2026, from Columbia Pictures with Constantin Film and PlayStation Productions among the production companies. The synopsis follows Bryan, a medical courier, through one horrifying night of survival chaos. Bright tomato red, popcorn yellow, and neon outbreak purple. White gutters. Cartoon figures only—never likenesses of living actors. The Rotten Tomatoes URL is the receipt.
 
-Opening weekend is when scoreboards matter most to casual browsers. Readers get 96% / 142 reviews, 90% / 500+ verified, the R rating and 90-minute runtime, Cregger’s Weapons/Barbarian hook, the Sept 18 wide date, and the “brisk, funny, true to the games” consensus beat — a Movies comic, not a spoiler reel.
+Readers get the 95% / 91% score pair, the 208-review and 2,500+ audience counts as reported, the critic consensus wording, the Sept. 18 wide date, the runtime and rating, and the source URL—not a spoiler walkthrough, just the scoreboard wire.
 
 Why it matters
 
-A 96% critic open with a matching-strong audience meter is the rare reboot that arrives already loud. For a franchise with a long, uneven screen history, that consensus line — funny without mocking the games — is the story under the percentages. Color on the twin meters. White gutters. Readers get Tomatometer, Popcornmeter, critic consensus as reported, and the RT URL on the page.
+A franchise reboot clearing mid-90s with critics and low-90s with audiences is the strip Rotten Tomatoes exists to show in one glance: Tomatometer splat, Popcornmeter bucket, consensus line, and the page URL. Color on the 95 and 91 boards. White gutters. Readers get Cregger’s reboot scores as reported, the consensus praise for runtime and comedic timing, the Sept. 18 theatrical stamp, and the source URL on the page.
 
 Conclusion
 
-Zach Cregger’s Resident Evil (2026) opens Sept. 18 with a 96% Tomatometer (142 reviews) and 90% Popcornmeter (500+ verified), with early critics calling it brisk, funny, and true to the games’ spirit, per Rotten Tomatoes. Cartoon only. Source: https://www.rottentomatoes.com/m/resident_evil_2026
+Resident Evil (2026), Zach Cregger’s franchise reboot, posts a 95% Tomatometer (208 reviews) and 91% Popcornmeter (2,500+ verified) on Rotten Tomatoes, with a critic consensus that highlights a sleek runtime, Austin Abrams’ comic timing, and propulsive game-feel scares after a Sept. 18 wide release, per the RT page. Source: https://www.rottentomatoes.com/m/resident_evil_2026
